@@ -1,6 +1,6 @@
 # ADS Ingest Documentation
 
-![ADS_logo](docs/assets/ads_logo.png)
+![ADS_logo](docs/assets/ads_logo_full.png)
 
 # Introduction
 
