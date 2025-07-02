@@ -1,0 +1,62 @@
+site_name: ADS Ingest Documentation
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: assets/ads_logo_white.png
+  favicon: assets/ads_logo.png
+  features:
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.path
+    - navigation.top
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: white
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: green
+      accent: red
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - md_in_html
+  - pymdownx.blocks.caption
+
+extra:
+  social:
+    - icon: simple/bluesky
+      link: https://bsky.app/profile/ads-update.bsky.social
+      name: ADS Bluesky
+    - icon: simple/facebook
+      link: https://www.facebook.com/archaeology.data.service/
+      name: ADS Facebook
+    - icon: simple/instagram
+      link: https://www.instagram.com/archaeologydataservice/
+      name: ADS Instagram
+copyright: Copyright &copy; 2025 - Archaeology Data Service
+
+# Page tree
+nav:
+  - Home: index.md
+  - Metadata Template: metadata.md
+  - Additional Metadata: additional.md
+  - Appendix 1 - Controlled Vocabularies: appendix_controlled_vocabs.md
