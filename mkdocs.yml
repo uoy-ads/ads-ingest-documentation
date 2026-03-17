@@ -1,34 +1,25 @@
-site_name: ADS Ingest Documentation
+site_name: Online Guidance for the Ingest system
 site_url: https://mydomain.org/mysite
 theme:
   name: material
   font:
-    text: Roboto
-    code: Roboto Mono
-  logo: assets/ads_logo_white.png
+    text: Poppins
+    code: Poppins
+  logo: assets/Ingest_logo2.png
   favicon: assets/ads_logo.png
   features:
+    - navigation.expand
     - navigation.footer
+    - navigation.indexes
     - navigation.instant
-    - navigation.instant.prefetch
-    - navigation.path
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
-  palette:
-    # Dark Mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Dark mode
-      primary: green
-      accent: white
 
-    # Light Mode
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Light mode
-      primary: green
-      accent: red
+  palette:
+      primary: deep purple
+      accent: purple
 
 markdown_extensions:
   - attr_list
@@ -41,22 +32,37 @@ markdown_extensions:
   - md_in_html
   - pymdownx.blocks.caption
 
-extra:
-  social:
-    - icon: simple/bluesky
-      link: https://bsky.app/profile/ads-update.bsky.social
-      name: ADS Bluesky
-    - icon: simple/facebook
-      link: https://www.facebook.com/archaeology.data.service/
-      name: ADS Facebook
-    - icon: simple/instagram
-      link: https://www.instagram.com/archaeologydataservice/
-      name: ADS Instagram
-copyright: Copyright &copy; 2025 - Archaeology Data Service
+copyright: Copyright &copy; 2026 - Archaeology Data Service
 
 # Page tree
 nav:
-  - Home: index.md
-  - Metadata Template: metadata.md
-  - Additional Metadata: additional.md
-  - Appendix 1 - Controlled Vocabularies: appendix_controlled_vocabs.md
+  - Getting Started:
+    - index.md  
+    - Introduction: gs/gs_introduction.md
+    - How to Register via UMA: gs/gs_register.md
+    - How you should structure your collection: gs/gs_structure.md
+    - Dashboard: gs/gs_dashboard.md
+    - Collection List: gs/gs_collections.md
+    - Messages: gs/gs_messages.md
+  - New Collections:
+    - nc/index.md
+    - Collection Information: nc/nc_collection_info.md
+    - Projects: nc/nc_projects.md
+    - Location: nc/nc_location.md
+    - Discovery Metadata: nc/nc_discovery.md
+    - Related Resources: nc/nc_related.md
+    - People & Organisations: nc/nc_people.md
+    - Files: nc/nc_files.md
+    - Costs: nc/nc_costs.md
+    - Invoice Details: nc/nc_invoice.md
+  - Metadata:
+    - cmt/index.md
+    - Template Download: cmt/cmt_template_download.md
+    - Field Guidelines: cmt/cmt_field_guidelines.md
+    - Data Category: cmt/data_category.md
+    - Folder Structure: cmt/cmt_folder_structure.md
+    - Technical Metadata: cmt/technical_metadata.md
+  - Troubleshooting:
+    - appendix/index.md
+    - Core Metadata Errors: appendix/core_metadata_errors.md
+    - File Upload Errors: appendix/file_upload_errors.md
