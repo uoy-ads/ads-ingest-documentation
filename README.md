@@ -8,6 +8,19 @@ Welcome to the repository for Documentation for the ADS Ingest system. The guide
 
 # About the guide
 
+Ingest is the new digital deposit system for the Archaeology Data Service and Heritage Science Data Service. Ingest enables researchers, field archaeologists, and heritage professionals to deposit and preserve archaeological datasets through an intuitive interface.
+
+Developed to streamline the process of archiving digital data and associated metadata, this system represents a significant advancement in our deposition capabilities. Ingest:
+* Is quick and easy
+* Supports multiple file formats
+* Facilitates all types of deposits (small to large)
+* Automates metadata extraction using a single template
+* Validates your files and metadata during deposition
+* Seamlessly integrates with existing research workflows
+
+## How to Use This Guide
+
+This online resource serves as a comprehensive user guide to using the Ingest system, helping you to navigate the features and provide examples for good practice in completing each field.
 
 # How to cite this guide
 
