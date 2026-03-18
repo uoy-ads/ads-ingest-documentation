@@ -63,7 +63,7 @@ As you add the data, the system will process the files and automatically highlig
 
 To rectify these issues you have two options:
 
-* __Click Fix Issues__ - This button takes you to a separate menu where you can rectify any specific issues per item. This menu will allow you to add new files, remove rows from the metadata template, as well as other options, to rectify these issues.  
+* __Click Fix Issues__ - This button takes you to a separate page where you can rectify any specific issues per item. On this page you will be able to add new files, remove rows from the metadata template, as well as other options, to rectify these issues.  
 * __Click ‘Re-upload files’__ - This button will take you back to the start of the first step and ask you drag and drop a folder containing your files into the drop zone.
 
 Once all of the errors have been rectified you will be shown a summary of the files deposited.  You can browse your files by clicking the ‘Browse Files’ button under the summary. On the ‘Browse Files’ window you can navigate through your files and download a file list.
