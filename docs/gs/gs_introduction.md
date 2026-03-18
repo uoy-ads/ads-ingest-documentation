@@ -5,7 +5,7 @@ This online documentation provides detailed instructions for all user types, fro
 ## How to Use This Guide
 This online resource serves as a comprehensive user guide to using the __Ingest__ system, helping you to navigate the features and provide examples for good practice in completing each field.
 
-The following menus provide. We recommend you navigate through the guidance step by step, buliding from basic concepts to guide through the deposition process.
+The following menus provide an outline for each section of this guidance. We recommend you navigate through the guidance step by step, buliding from basic concepts to guide through the deposition process.
 
 <div class="grid cards" markdown>
 
