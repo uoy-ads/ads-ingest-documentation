@@ -1,11 +1,11 @@
-This menu allows you to enter the details associated with invoicing for the cost of your deposition. You should enter the contact details of a person who is responsible for ensuring the payment of invoices so as to not delay the deposition and publication of your collection.
+This page allows you to enter the details associated with invoicing for the cost of your deposition. You should enter the contact details of a person who is responsible for ensuring the payment of invoices so as to not delay the deposition and publication of your collection.
 
 <figure markdown="span">
   ![Invoice menu](./assets/invoice.png){ width="350" }
   <figcaption></figcaption>
 </figure>
 
-Default Invoice Details can be updated via the Settings menu. This ensures that you do not have to re-enter invoice details for every collection. The default options can be changed within this page menu if required.
+Default Invoice Details can be updated via the Settings menu. This ensures that you do not have to re-enter invoice details for every collection. The default options can be changed within this page if required.
 
 ### Purchase Order Number
 
