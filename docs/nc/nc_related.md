@@ -12,7 +12,7 @@ From the drop down list, select one of the resource identifier options, such as 
 
 ### Resource Identifier
 
-Please enter the identifier for your related resource. This could be a web link (URL) or Digital Object Identifier. Please ensure that the identifier matches with the type listed in the Resource Identifier Type. This is a mandated field.
+Please enter the identifier for your related resource. This could be a web link (URL) or Digital Object Identifier. Please ensure that the identifier matches with the type listed in the Resource Identifier Type. This is a mandatory field.
 
 Some examples could include:
 
