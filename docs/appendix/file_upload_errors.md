@@ -1,4 +1,4 @@
-Below is a table of errors that the Ingest system may present when uploading files as part of yor deposit.
+Below is a table of errors that the Ingest system may present when uploading files as part of your deposit.
 
 
 | Error | Description | Action (in Ingest) |
