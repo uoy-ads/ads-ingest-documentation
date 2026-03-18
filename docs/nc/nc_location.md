@@ -32,7 +32,7 @@ Once you have created a polygon, rectangle or marker you are able to edit these 
 
 ### Allocating a location to a Project
 
-When you allocate a point or polygon on the map, the system will ask what project this location belongs to. 
+When you allocate a point or polygon on the map, the system will ask which project this location belongs to. 
 
 <figure markdown="span">
   ![Allocate to project](./assets/location_project.png){ width="350" }
