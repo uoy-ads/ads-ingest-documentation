@@ -1,4 +1,4 @@
-The table below lists all of the Data Categories accepted through the Ingest system. This table provides a decription pf each data type as well as accepted file extentions and links to Technical Metadata templates, where required.
+The table below lists all of the Data Categories accepted through the Ingest system. This table provides a decription of each data type as well as accepted file extentions and links to Technical Metadata templates, where required.
 
 | Data Category | Accepted File Extensions | Description | Metadata Templates |
 | :---- | :---- | :---- | :---- |
