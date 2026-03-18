@@ -1,6 +1,6 @@
 # Dashboard
 
-The Dashboard is the default homepage when you [sign in](https://public.ads.ac.uk/ingest/login) to __Ingest__.
+The Dashboard is the default homepage when you [sign in](https://ingest.archaeologydataservice.ac.uk/) to __Ingest__.
 
 The bar chart provides a graphical interface to the collections that you have started working on, organised by status.
 
