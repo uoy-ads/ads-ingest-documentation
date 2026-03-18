@@ -8,7 +8,7 @@ This is the title of the associated resource. For a publication or other archive
 
 ### Resource Identifier Type
 
-From the drop down list, select one of the resource identifier options, such as DOI (Digital Object Identifier) or URL (uniform resource location, otherwise known as a weblink). For a full list of the Resource Identifier types and what they relate to, please see [Appendix ?](). The actual link to that resource will be included in the Resource Identifier field. This is a mandated field.
+From the drop down list, select one of the resource identifier options, such as DOI (Digital Object Identifier) or URL (uniform resource location, otherwise known as a weblink). For a full list of the Resource Identifier types and what they relate to, please see [Appendix ?](). The actual link to that resource will be included in the Resource Identifier field. This is a mandatory field.
 
 ### Resource Identifier
 
