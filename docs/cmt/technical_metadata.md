@@ -4,7 +4,7 @@ The new Ingest system enables depositors to utilise a single metadata template t
 
 ## How to upload your technical metadata
 
-The Technical metadata files should be included in the ingest system alongside the other files to be deposited. It is not required to list these additional metadata as a separate row in the template, however, each file (with approproate file extension) should be listed in the __Technical Metadata__ column of the [metadata template](./cmt_template_download.md). If you fail to include  requred additinal metadata file or include the file but do not list it in the metadata template, then the Ingest will produce an [error](/docs/appendix/core_metadata_errors.md).
+The Technical metadata files should be included in the ingest system alongside the other files to be deposited. It is not required to list these additional metadata as a separate row in the template, however, each file (with approproate file extension) should be listed in the __Technical Metadata__ column of the [metadata template](./cmt_template_download.md). If you fail to include  requred additional metadata file or include the file but do not list it in the metadata template, then the Ingest will produce an [error](/docs/appendix/core_metadata_errors.md).
 
 ## Data types that require technical metadata
 
