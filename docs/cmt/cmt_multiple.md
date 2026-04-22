@@ -41,11 +41,11 @@ Solution - You ave two options; either rename all of these files so that they ha
 
 The list below contains all Data Categories that are required to be formatted in this way:
 
-* geophysics-proprietary
-* geophysics
-* gis-data
-* lidar
-* laser-scanning
-* mass-spectrometry
-* photogrammetric-survey
-* rti
+* Geophysics (Proprietary)
+* Geophysics
+* Geographic Information System (GIS) Data
+* Light Detection and Ranging (LiDAR)
+* Laser Scanning
+* Mass Spectrometry
+* Photogrammetric Survey
+* Reflectance Transformation Imaging (RTI)
