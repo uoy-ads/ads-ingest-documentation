@@ -6,7 +6,7 @@ In some instances you may wish to upload a single digital object that contains m
 
 Below are a number of common examples.
 
-*GIS Shapefiles* - Shapefiles are usually composed of a series of files have the same name but with a different file extension. A shapefile object may consist of the following files:
+*GIS Shapefiles* - Shapefiles are usually composed of a series of files that have the same name but with a different file extension. A shapefile object may consist of the following files:
 
 * example.shp
 * example.shx
