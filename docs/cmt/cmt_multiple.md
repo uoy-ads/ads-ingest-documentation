@@ -1,6 +1,6 @@
 # Multiple files per object
 
-In some instances you may wish to upload a single digital object that contains multiple files, such as a GIS shapefile or 3d model. In this case please add all files to the upload folder but include only one object (or row) in the core metadata template. This ensures all files related to an object are ingested together and contain the same metadata. The Ingest system will recognise all of these files as a single object, but only if all files contain the same filename or a grouped in a folder.
+In some instances you may wish to upload a single digital object that contains multiple files, such as a GIS shapefile or 3d model. In this case please add all files to the upload folder but include only one object (or row) in the core metadata template. This ensures all files related to an object are ingested together and contain the same metadata. The Ingest system will recognise all of these files as a single object, but only if all files contain the same filename or are grouped in a folder.
 
 ## Some examples
 
