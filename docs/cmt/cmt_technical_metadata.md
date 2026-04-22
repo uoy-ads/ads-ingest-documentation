@@ -12,7 +12,7 @@ The Technical metadata files should be included in the folder of files that you 
 
 The table below provides a list of templates that can be used for required Technical metadata. It is not mandatory to use these templates but they provide a useful starting point for the types of information that we would like to collect for some Data Categories.
 
-Each template contains a ‘Instructions’ tab that provides a list of fields and field descriptions for each data category. These templates can be used and amended as necessary to suit the needs of your collection.
+Each template contains an ‘Instructions’ tab that provides a list of fields and field descriptions for each data category. These templates can be used and amended as necessary to suit the needs of your collection.
 
 For a full list of the suggested fields for each technical metadata template see the [Appendix for this guidance](../cmt/cmt_tech_metadata_require.md).
 
