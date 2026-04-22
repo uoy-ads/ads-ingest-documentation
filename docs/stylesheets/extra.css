@@ -1,0 +1,19 @@
+:root {
+  --md-primary-fg-color: #6956A4;
+  --md-primary-fg-color--light: #6956A4;
+  --md-primary-fg-color--dark: #6956A4;
+  --md-accent-fg-color: #6956A4;
+}
+
+.md-hero__logos {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.md-hero__logos img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}

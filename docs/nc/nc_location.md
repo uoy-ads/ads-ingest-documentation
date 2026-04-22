@@ -4,12 +4,12 @@ This menu allows you to provide the geographic location for your project(s). To 
 
 Above the map, there are a number of ways in which you can find the location of your project:
 
-* __Search for a location__ - Type in a place name to focus your search  
+* __Search for a location__ - Type in a place name to focus your search.
 * __British National Grid reference__ - Use the grid tile letters followed by a full six or eight numeric grid reference (e.g. NZ250638) to focus your search.  
 * __Eastings and Northings__ - Use the British National grid reference, separated into a six or eight figure easting and northing (e.g. 425034 , 563870), to focus your search.  
 * __Latitude and Longitude__ - Use the World Geodetic System 1984 Reference System (e.g. 54.968824 , \-1.6104931), to focus your search.
 
-Using any of the methods above will centre the map of the desired location but will not yet select this location for your project. Use the Zoom function to move.
+Using any of the methods above will centre the map of the desired location but will not yet select this location for your project. Zoom and pan in the map window to move your desired location.
 
 ### Selecting a location
 
@@ -17,8 +17,8 @@ To select a geographic location you can use one of three tools:
 
 | Tool | Description | Icon |
 | ----------- | ----------- | ----------- |
-| **Draw a polygon** | Use this option to create a bespoke shape for your project area. Click to create a node and click the first point to close the shape. Clicking on this option opens a small menu that allows you to ‘Finish’ the shape, ‘Delete the last point’ and ‘Cancel’ creating the polydon. | ![Polygon icon](../nc/assets/polygon.png) | 
-**Draw a rectangle** | Use this option to create a bespoke shape for your project area. Click to create a node and click the first point to close the shape. Clicking on this option opens a small menu that allows you to ‘Finish’ the shape, ‘Delete the last point’ and ‘Cancel’ creating the polygon. | ![Rectangle icon](../nc/assets/rectangle.png) | 
+| **Draw a polygon** | Use this option to create a bespoke shape for your project area. Click to create a series of points and click the first point to close the shape. Clicking on this option opens a small menu that allows you to ‘Finish’ the shape, ‘Delete the last point’ and ‘Cancel’ creating the polygon. | ![Polygon icon](../nc/assets/polygon.png) | 
+**Draw a rectangle** | Use this option to create a rectangular project area. Click once on the map to start drawing the rectangle. The first point will denote the top left hand corner of the rectangle and the second the bottom right hand corner. Clicking on this option opens a small menu that allows you to ‘Cancel’ creating the rectangle. | ![Rectangle icon](../nc/assets/rectangle.png) | 
 **Draw a marker** | Use this option to create a single marker for your project. Click on the map once to place your marker. Clicking on this option opens a small menu that allows you to ‘Cancel’ creating the marker. | ![Marker icon](../nc/assets/marker.png) |
 
 ### Editing your locations
@@ -32,11 +32,11 @@ Once you have created a polygon, rectangle or marker you are able to edit these 
 
 ### Allocating a location to a Project
 
-When you allocate a point or polygon on the map, the system will ask which project this location belongs to. 
+When you allocate a point or polygon on the map, the system will ask which project this location belongs to. Select the relevant project from the drop down list.
 
 <figure markdown="span">
   ![Allocate to project](./assets/location_project.png){ width="350" }
   <figcaption></figcaption>
 </figure>
 
-This allows you to assign a spatial reference to each individual project. If you do not assign a spatial reference to your project then no coordinates will be assigned to your collection in the ADS.
+This feature allows you to assign a spatial reference to each individual project. If you do not assign a spatial reference to your project then no coordinates will be assigned to your collection in the ADS or HSDS.

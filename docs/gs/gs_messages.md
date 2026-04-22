@@ -13,4 +13,4 @@ __Message__: Write your full request in the message field. Include as much infor
   <figcaption></figcaption>
 </figure>
 
-All of your messages will appear on the top of this page after you send them. You can reply to each thread separately to keep all of your communications in one place.
+All of your messages will appear on the top of this page after you send them. You can reply to each thread separately to organise these communications.

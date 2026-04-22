@@ -5,11 +5,11 @@ This page allows you to enter the details associated with invoicing for the cost
   <figcaption></figcaption>
 </figure>
 
-Default Invoice Details can be updated via the Settings menu. This ensures that you do not have to re-enter invoice details for every collection. The default options can be changed within this page if required.
+Default Invoice Details can be updated via the [Settings menu](../gs/gs_settings.md). This ensures that you do not have to re-enter invoice details for every collection. The default options can be changed within this page if required.
 
 ### Purchase Order Number
 
-If your invoice is associated with a Purchase Order number from your organisation, please enter these details here so that our Finance team can include this information on invoices sent to your nominated contact.
+If relevant, please enter a Purchase Order number from your organisation to associate with the invoice. Our Finance team will include this information on invoices sent to your nominated contact.
 
 ### Name (first and last name)
 

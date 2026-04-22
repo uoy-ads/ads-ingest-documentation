@@ -1,54 +1,60 @@
 # Introduction
 
-This online documentation provides detailed instructions for all user types, from first-time depositors to system administrators. Whether you are preparing to archive data for the first time, or have archived with us before, these guides will help you navigate the system efficiently.
+This online guidance provides detailed instructions for all user types, from first-time depositors to system administrators. Whether you are preparing to archive data for the first time, or have archived with us before, these guides will help you efficiently navigate the Ingest system.
 
 ## How to Use This Guide
-This online resource serves as a comprehensive user guide to using the __Ingest__ system, helping you to navigate the features and provide examples for good practice in completing each field.
+This online resource serves as a comprehensive user guide to using Ingest, helping you to navigate each of the features and menus and provide examples for good practice in completing each field. We recommend you navigate through the guidance step by step, building from basic concepts to more advanced features, to help guide you through the deposition process.
 
-The following menus provide an outline for each section of this guidance. We recommend you navigate through the guidance step by step, buliding from basic concepts to guide through the deposition process.
 
+## Ingest guides
 <div class="grid cards" markdown>
 
--   :material-file-document: &nbsp; __Getting Started__
+-   :material-file-document: __Getting Started__
 
     ---
-    - [Introduction](gs_introduction.md)
-    - [How to Register via UMA](gs_register.md)
-    - [How you should structure your collection](gs_structure.md)
-    - [Dashboard](gs_dashboard.md)
-    - [Collection List](gs_collections.md)
-    - [Messages](gs_messages.md)
 
+    Register, navigate your dashboard and start a deposition
+    
+
+    [:octicons-arrow-right-24: Introduction](gs_introduction.md)
 
 -   :material-archive: &nbsp; __New Collections__
 
     ---
-    - [Collection Information](nc_collection_info.md)
-    - [Projects](nc_projects.md)
-    - [Location](nc_location.md)
-    - [Discovery Metadata](nc_discovery.md)
-    - [Related Resources](nc_related.md)
-    - [People & Organisations](nc_people.md)
-    - [Files](nc_files.md)
-    - [Costs](nc_costs.md)
-    - [Invoice Details](nc_invoice.md)
+
+    Submit collection information, incl. projects, people and resources.
 
 
--   :material-google-spreadsheet: &nbsp; [__Core Metadata Template__](cmt_index.md)
+    [:octicons-arrow-right-24: Submitting a New Collection](../nc/nc_index.md)
+
+-   :material-google-spreadsheet: __Core Metadata Template__
 
     ---
-    - [Template Download](cmt_template_download.md)
-    - [Folder Structure](cmt_folder_structure.md)
-    - [Field Guidelines](cmt_field_guidelines.md)
-    - [Data Category](cmt_data_category.md)
 
--   :material-text-long: &nbsp; [__Additional Information__](appendix_index.md)
+    Download templates and explore field guidelines.
+
+    [:octicons-arrow-right-24: Metadata instructions](../cmt/cmt_index.md)
+
+-   :material-human-male-board: __Training__
 
     ---
-    - [Controlled Vocabularies](appendix_controlled_vocabs.md)
-    - [Technical Metadata](appendix_technical_metadata.md)
 
+    Find out about upcoming sessions, Q&A discussions, and share feedback.
+
+    [:octicons-arrow-right-24: Upcoming Sessions](../tr/tr_index.md)
 
 </div>
 
-If you have any recommendations for improvements or additions to this documentation please contact the [Helpdesk](https://archaeologydataservice.ac.uk/contact/) with the subject line 'Ingest Documentation'.
+
+## Navigation features
+* Use the navigation tabs above to explore each section of the guidance.
+* Click headings in the sidebar to navigate to topics more quickly.
+* Use the search bar at the top of the page to find specific topics.
+* On mobile devices, tap the menu icon (☰) in the top left hand corner to access the navigation pane.
+
+!!! note "**Pro tip**"
+
+    Use the search function at the top of the page to quickly jump to any topic across the entire guide.
+
+## Improvements
+If you have any recommendations for improvements or additions to this documentation please contact the [Helpdesk](https://archaeologydataservice.ac.uk/contact/) with the subject line *'Ingest Guidance'*.

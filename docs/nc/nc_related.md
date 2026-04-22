@@ -4,11 +4,11 @@ To add a Related Resource, click the “+ Related Resource" button. There are th
 
 ### Title
 
-This is the title of the associated resource. For a publication or other archive, this could be the overall title of that resource. This is a mandated field.
+This is the title of the associated resource. For a publication or other archive, this could be the overall title of that resource. This is a mandatory field.
 
 ### Resource Identifier Type
 
-From the drop down list, select one of the resource identifier options, such as DOI (Digital Object Identifier) or URL (uniform resource location, otherwise known as a weblink). For a full list of the Resource Identifier types and what they relate to, please see [Appendix ?](). The actual link to that resource will be included in the Resource Identifier field. This is a mandatory field.
+From the drop down list, select one of the resource identifier options, such as DOI (Digital Object Identifier) or URL (uniform resource location, otherwise known as a weblink). The actual link to that resource will be included in the Resource Identifier field. This is a mandatory field.
 
 ### Resource Identifier
 

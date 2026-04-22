@@ -1,12 +1,13 @@
-site_name: Online Guidance for the Ingest system
-site_url: https://mydomain.org/mysite
+site_name: Guidance
+site_url: https://uoy-ads.github.io/ads-ingest-documentation/
 theme:
   name: material
+  custom_dir: overrides
   font:
     text: Poppins
     code: Poppins
   logo: assets/Ingest_logo2.png
-  favicon: assets/ads_logo.png
+  favicon: assets/Ingest_favicon_circle.png
   features:
     - navigation.expand
     - navigation.footer
@@ -17,9 +18,12 @@ theme:
     - navigation.tabs.sticky
     - navigation.top
 
-  palette:
-      primary: deep purple
-      accent: purple
+
+extra_css:
+  - stylesheets/extra.css
+
+watch:
+  - overrides
 
 markdown_extensions:
   - attr_list
@@ -32,20 +36,22 @@ markdown_extensions:
   - md_in_html
   - pymdownx.blocks.caption
 
+
 copyright: Copyright &copy; 2026 - Archaeology Data Service
 
 # Page tree
 nav:
+  - Home: index.md
   - Getting Started:
-    - index.md  
     - Introduction: gs/gs_introduction.md
     - How to Register via UMA: gs/gs_register.md
     - How you should structure your collection: gs/gs_structure.md
     - Dashboard: gs/gs_dashboard.md
     - Collection List: gs/gs_collections.md
     - Messages: gs/gs_messages.md
+    - Settings: gs/gs_settings.md
   - New Collections:
-    - nc/index.md
+    - nc/nc_index.md
     - Collection Information: nc/nc_collection_info.md
     - Projects: nc/nc_projects.md
     - Location: nc/nc_location.md
@@ -55,14 +61,21 @@ nav:
     - Files: nc/nc_files.md
     - Costs: nc/nc_costs.md
     - Invoice Details: nc/nc_invoice.md
-  - Metadata:
-    - cmt/index.md
+  - Core Metadata Template:
+    - cmt/cmt_index.md
     - Template Download: cmt/cmt_template_download.md
     - Field Guidelines: cmt/cmt_field_guidelines.md
-    - Data Category: cmt/data_category.md
+    - Multiple Files: cmt/cmt_multiple.md
+    - Data Category: cmt/cmt_data_category.md
     - Folder Structure: cmt/cmt_folder_structure.md
-    - Technical Metadata: cmt/technical_metadata.md
+    - Technical Metadata: cmt/cmt_technical_metadata.md
+    - Technical Metadata Requirements: cmt/cmt_tech_metadata_require.md
+  - Training:
+    - tr/tr_index.md
+    - Introduction to Ingest: tr/tr_intro_ingest.md
+    - Q & A Drop-in Sessions: tr/tr_ingest_qa.md
+    - Code of Conduct: tr/tr_conduct.md
   - Troubleshooting:
-    - appendix/index.md
+    - appendix/appendix_index.md
     - Core Metadata Errors: appendix/core_metadata_errors.md
     - File Upload Errors: appendix/file_upload_errors.md

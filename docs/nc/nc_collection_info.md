@@ -1,8 +1,8 @@
 # Collection Information
 
-The first page of the deposition is designed to gather information about the entire Collection that you are depositing. This information provided on this page provides the core collection metadata for your submission. As such, much of the information included here will be visible on the relevant [archives](https://doi.org/10.5284/1136080) pages.
+The first page of the deposition process is designed to gather information about the entire Collection that you are depositing. This information provided on this page provides the core collection metadata for your submission. As such, much of the information included here will be visible on the relevant [archives](https://doi.org/10.5284/1136080) pages.
 
-For an explanation of the differences between a Collection and Project in __Ingest__, see the [‘How you should structure your collection’](/docs/gs/gs_structure.md) information pages.
+For an explanation of the differences between a Collection and Project in Ingest, see the [‘How you should structure your collection’](../gs/gs_structure.md) information pages.
 
 ## Collection Title
 
@@ -14,7 +14,7 @@ Example:
 
 ## Collection Description
 
-Enter a detailed description of the data collection. This will be used as the text on your collection's [Introduction page](https://archaeologydataservice.ac.uk/archives/collections/view/1007614/index.cfm) in our archives This field allows you to enter a maximum of 4000 characters. This is a mandatory field. 
+Enter a detailed description of the data collection. This will be used as the text on your collection's [Introduction page](https://archaeologydataservice.ac.uk/archives/collections/view/1007614/index.cfm) in our archives. This field allows you to enter a maximum of 4000 characters. This is a mandatory field. 
 
 Example:
 
@@ -24,11 +24,11 @@ Example:
 
 ## Collection Overview
 
-Enter a comprehensive overview of the data collection. This information could relate to the wider context of the collection or the methodologies used to collect the data. Here is an example from our [archives](https://archaeologydataservice.ac.uk/archives/collections/view/1004457/overview.cfm). The text entered here will be used on the Overview page for your collection on the ADS website. It is not mandatory to include a Collection Overview statement but it may be useful for larger or more complex collections. This field allows you to enter a maximum of 20,000 characters.
+Enter a comprehensive overview of the data collection. This information could relate to the wider context of the collection or the methodologies used to collect the data. Here is an example from our [archives](https://archaeologydataservice.ac.uk/archives/collections/view/1004457/overview.cfm). The text entered here will be used on the Overview page for your collection on the ADS website. It is not mandatory to include a Collection Overview but it may be useful for larger or more complex collections. This field allows you to enter a maximum of 20,000 characters.
 
 ## Collection Reuse Statement
 
-Please provide details about how your collection could be reused by other researchers. Please consider whether the data you are depositing may have value to other researchers and could be used in different ways than was originally intended.  This field allows you to enter a maximum of 20,000 characters.
+Please provide details about how your collection could be reused by other researchers. Please consider whether the data you are depositing may have value to other researchers and could be used in different ways than was originally intended. You may wish to highlight how your collection could serve researchers in other disciplines, how it could have an impact on a particular community or if your collection captures something rare or unique. It is not mandatory to include a Collection Reuse Statement but it can help maximise the impact of your collection and attract interdisciplinary interest.  This field allows you to enter a maximum of 20,000 characters.
 
 ## Data Creation Start Date
 
@@ -44,7 +44,7 @@ Please select the primary language used in the content of your collection. Engli
 
 ## Parent Collection
 
-If your collection is part of a larger existing collection, such as a museum collection, please select the name of the parent collection that your collection should be associated with. Please contact [Helpdesk](https://archaeologydataservice.ac.uk/contact/) if you can not find a relevant Parent Collection on this list or if you wish to discuss creating a Parent Collection.
+If your collection is part of a larger existing collection, such as a museum collection, please select the name of the parent collection that your collection should be associated with. Please contact [Helpdesk](https://archaeologydataservice.ac.uk/contact/) if you can not find a relevant Parent Collection on this list or if you wish to discuss creating a new Parent Collection.
 
 ## Existing Tracking ID
 
