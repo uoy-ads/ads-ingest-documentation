@@ -1,6 +1,10 @@
-The table below lists all of the Data Categories accepted through the Ingest system. This table provides a decription of each data type as well as accepted file extentions and links to Technical Metadata templates, where required.
+The table below lists all of the Data Categories currently accepted through the Ingest system. These categories are listed in the [Core Metadata Template](../cmt/cmt_template_download.md). This table below provides a description of each data type as well as accepted file extensions and links to Technical Metadata templates, where required.
 
-| Data Category | Accepted File Extensions | Description | Metadata Templates |
+!!! note "**Templates**"
+
+    Please note that it is not mandatory to use the templates listed in the table below. You can create and use your own templates when depositing Technical Metadata
+
+| Data Category | Accepted File Extensions | Description | Technical Metadata Template |
 | :---- | :---- | :---- | :---- |
 | **Audiovisual** | acc, aif, au, avi, bwf, flack, mkv, mp3, mp4, mpg, avg, wav, mpeg | Audio or video files. |  [Audiovisual technical metadata](https://docs.google.com/spreadsheets/d/1FBJuZ_Jo4sLXMB66biyfQvj48xtNm1G4/edit?gid=129668891#gid=129668891) |
 | **Computed Tomography (CT) Scanning** | bmp, dcm, gif, jpg, png, tif | Images, models, or data from CT scanning including micro CT. CT video files should be categorised as Audiovisual. |  |
@@ -26,3 +30,7 @@ The table below lists all of the Data Categories accepted through the Ingest sys
 | **Vector Graphic** | dwg, dxf, svg | Graphical vector datasets such as CAD (computer assisted design) models. |  [Vector technical metadata](https://docs.google.com/spreadsheets/d/1BX2YB74S7FLCAtHuR6nlla9zyJfSzyEo/edit?gid=1479513331#gid=1479513331) |
 | **Virtual Reality and Visualisation** | obj, stl, wrl  | Other 3D models and visualisation including virtual reality. This data should not include datasets derived from ‘Photogrammetry’. ‘Laser scanning’, ‘LIDAR’ or derived from specific medical imaging techniques such as CT Scanning. |  [3D model metadata](https://docs.google.com/spreadsheets/d/1QXvAkwXjagMCqw04VbUS1rYScp9w1MmVsLsTELH8hF0/edit?gid=0#gid=0) |
 | **X-radiography (X-ray) Scanning** | bmp, dcm, gif, jpg, png, tif  | Images and data produced by X-ray scanning. |  |
+
+## Categories not listed
+
+If the data category you require is not listed above, or you are unsure as to what category your data should fall under, please contact the [Helpdesk](https://archaeologydataservice.ac.uk/contact/) with the subject line *'Ingest'* for advice. 

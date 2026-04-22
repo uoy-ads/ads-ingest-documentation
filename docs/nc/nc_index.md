@@ -1,0 +1,38 @@
+# Submitting a New Collection
+
+To submit a new collection for deposition click the green ‘New Collection’ button at the top of the home page.
+
+<figure markdown="span">
+  [![New Collection Button](./assets/newcollection_button.png){ width="250" }](../nc/nc_index.md)
+  <figcaption></figcaption>
+</figure>
+
+Navigate through the Collection menu using the menu on the left hand side of the screen.
+
+<figure markdown="span">
+  ![Ingest interface](./assets/ingest_interface.png){ width="550" }
+  <figcaption></figcaption>
+</figure>
+
+You can save your progress using the green ‘Save’ button on the right hand side of the screen. Once all mandatory fields are complete you can also submit your collection using the purple ‘Submit’ button on the right hand side of the page.
+
+Once you have completed the Collection Title on the [Collection Information](./nc_collection_info.md) page, the title will appear above the 'Save' and 'Submit' buttons.
+
+## OASIS Projects
+
+If you have already submitted information about your project to OASIS you can link to this existing information and automatically pull details into Ingest.
+
+[OASIS](https://oasis.ac.uk/) is the online system for reporting investigations into the historic environment and linking research outputs and archives.
+
+To import details from OASIS, enter the OASIS ID into the pop-up box that appears once you hit the green ‘New Collection’ button.
+
+You can also pull details from multiple OASIS projects by entering a comma separated list of OASIS IDs. 
+
+<figure markdown="span">
+  ![OASIS import interface](./assets/collection_oasis.png){ width="450" }
+  <figcaption></figcaption>
+</figure>
+
+If there are no associated OASIS projects with your deposit, you can leave this field blank and just hit Continue. 
+
+You can also import data from OASIS later via the [Projects page](./nc_projects.md).

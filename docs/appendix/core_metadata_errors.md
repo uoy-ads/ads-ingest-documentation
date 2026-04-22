@@ -10,6 +10,9 @@ Below is a table of errors that the Ingest system may present when uploading the
 | “Filename” is missing a file extension | “Filename” field is not a directory (doesn’t end with /) and is missing a file extension e.g. MyFiles/Images/trench1. |
 | “Filename” has a file extension that is not accepted | “Filename” field contains a file extension that is not in the list of accepted file extensions. Please note geophysics objects containing proprietary file types should be listed as directories. |
 | “Filename” has a file extension that is not accepted for the selected “Data Category” | “Filename” field has a file extension that is not in the list of accepted file extensions for the specified “Data Category”. Please note Geophysics objects containing proprietary file types should be listed as directories. |
+| "Filename" cannot be a directory for the selected "Data Category" | The “Filename” column contains a directory, however, the selected Data Category does not accept multiple constituent files for an object. |
+| Duplicate “Filename” found. | The “Filename” column must contain a unique value for each row. |
+| Duplicate “Filename” (excluding extension) found | The “Filename” column must contain a unique value for each row, disregarding the file extension. |
 | Missing “Data Category” | “Data Category” field is empty. |
 | Invalid “Data Category” | “Data Category” field contains a category that is not in the list of valid data categories. |
 | Missing “Title” | “Title” field is empty. |
@@ -30,5 +33,4 @@ Below is a table of errors that the Ingest system may present when uploading the
 | A “Technical Metadata” filename contains an empty directory | A “Technical Metadata” filename contains an empty directory e.g. MyFiles/Metadata//technical.csv |
 | A “Technical Metadata” filename contains invalid characters \- must only contain alpha-numeric characters (a-z, A-Z, 0-9), hyphens (-), underscores (\_) and forward slashes (/) | “Technical Metadata” field is invalid due to the presence of characters that are not accepted.  |
 | Missing or invalid “Survey Area” | “Data Category” is “Geophysics” and “Survey Area” is either empty or not a valid number. |
-| Duplicate “Filename” found. | The “Filename” column must contain a unique value for each row. |
-| Duplicate “Filename” (excluding extension) found | The “Filename” column must contain a unique value for each row, disregarding the file extension. |
+

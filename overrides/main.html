@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+ 
+{% block tabs %}
+  {{ super() }}
+  {% if page.url == "." or page.url == "" %}
+  <style>
+    .md-hero {
+      height: calc(100vh - 8rem);
+      background: white;
+      display: flex;
+      align-items: center;
+      padding: 4rem 3rem;
+    }
+ 
+    .md-hero__inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      gap: 2rem;
+    }
+ 
+    .md-hero__content {
+      flex: 1;
+    }
+ 
+    .md-hero__content h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: #2d2d2d;
+      margin: 0 0 1rem;
+    }
+ 
+    .md-hero__content p {
+      font-size: 1rem;
+      color: #2d2d2d;
+      max-width: 520px;
+      margin-bottom: 1.5rem;
+    }
+ 
+    .md-hero__buttons {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+ 
+    .md-hero__button {
+      display: inline-block;
+      padding: 0.6rem 1.5rem;
+      background: #6956A4;
+      color: white !important;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      text-decoration: none !important;
+      transition: background 0.2s;
+    }
+ 
+    .md-hero__button:hover { background: #4e3f7d; }
+ 
+    .md-hero__button--secondary {
+      background: transparent;
+      color: #6956A4 !important;
+      border: 2px solid #6956A4;
+    }
+ 
+    .md-hero__button--secondary:hover { background: rgba(0,0,0,0.08); }
+ 
+    .md-hero__image {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+ 
+    .md-hero__image img {
+      max-width: 100%;
+      max-height: 70vh;
+      object-fit: contain;
+      drop-shadow: 0 8px 32px rgba(0,0,0,0.15);
+    }
+ 
+    @media (max-width: 768px) {
+      .md-hero__image { display: none; }
+      .md-hero { align-items: flex-end; padding: 3rem 1.5rem; }
+    }
+  </style>
+ 
+  <div class="md-hero">
+    <div class="md-hero__inner">
+      <div class="md-hero__content">
+        <h1>Guidance for Ingest</h1>
+        <p>Support and documentation for depositing collections with the ADS and HSDS.</p>
+        <div class="md-hero__buttons">
+          <a href="gs/gs_introduction/" class="md-hero__button">Get started</a>
+          <a href="tr/tr_index/" class="md-hero__button md-hero__button--secondary">Training</a>
+        </div>
+        <div class="md-hero__logos">
+          <img src="assets/ads_logo_full.png" alt="ADS Logo">
+          <img src="assets/hsds_logo_full.png" alt="HSDS Logo">
+        </div>
+      </div>
+      <div class="md-hero__image">
+        <img src="{{ page.canonical_url }}assets/ingest_title.png" alt="Ingest application screenshot">
+      </div>
+    </div>
+  </div>
+  {% endif %}
+{% endblock %}
+ 
+{% block content %}
+  {% if page.url == "." or page.url == "" %}
+  {% else %}
+    {{ super() }}
+  {% endif %}
+{% endblock %}

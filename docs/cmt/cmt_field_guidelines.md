@@ -12,22 +12,22 @@ Example:
 
 * Format - Free text field
 
-### __Type *__
-Enter the type of file uploaded from the drop down provided. This field has a [controlled vocabulary](./appendix_controlled_vocabs.md).
+### __Data Category *__
+Enter the type of file uploaded from the drop down provided. This field has a [controlled vocabulary](../cmt/cmt_data_category.md).
 
 > Example - *Photograph*
 
 * Format - Controlled Vocabulary
 
 ### __Title *__
-Enter a short descriptive title for users of the ADS website and for ongoing management. Please ensure that this title is unique within your collection.
+Enter a short descriptive title for users of the ADS and HSDS websites and for ongoing management. Please ensure that this title is unique within your collection.
 
 > Example - *Land at Archaeological Site, London - Archaeological Evaluation Report*
 
 * Format - Free text field
 
-### __Description *__
-Enter a short description, expanding upon the title, for users of the ADS website, and for ongoing management.  The description may include information about the contents and purpose of the file, along with any dependencies or relationships to other files.
+### __Description__
+Enter a short description, expanding upon the title, for users of the ADS and HSDS websites, and for ongoing management.  The description may include information about the contents and purpose of the file, along with any dependencies or relationships to other files.
 
 > Example - *East facing shot of ditch [001]*
 
@@ -75,8 +75,8 @@ Enter the date this digital object was created. If this is a scan or replication
 
 * Format - Date (DD/MM/YYYY format)
 
-### __Additional Metadata__
-Enter a filename for any additional metadata. For specific data types, the ADS requires additional technical metadata. Guidance on this technical metadata is provided in the [ADS Instructions for Depositors](https://archaeologydataservice.ac.uk/advice/Downloads.xhtml). Please use an ADS generated template. If using multiple files, separate with a comma (,).
+### Technical Metadata__
+Enter a filename for any Technical metadata. For specific data types, we require additional technical metadata. Further guidance on technical metadata, including templates can be found on the [Technical Metadata menu](../cmt/cmt_technical_metadata.md). If using multiple files, separate with a comma (,).
 
 > Example - *012345_ADS_database_metadata_Enviro_v2.xlsx*
 
@@ -89,16 +89,9 @@ For "Geophysics" data type only. Enter the total area of the geophysical survey 
 
 * Format - Numeric
 
-## Multiple files per object
+### __Embargo date__ 
+If you would like specific files to be restricted on a temporary basis, please select a date after which you would like these digital objects to be publicly available. Please note that the length of the embargo period agreed with the ADS or HSDS will depend on the sensitivities of the data involved.
 
-In some instances you may wish to upload a single object that contains multiple files, such as a shapefile. In this case please add all files to the upload folder and include only one object (or row) in the metadata template. The Ingest system will recognise all of these files as a single object, but only if all files contain the same filename. 
+> Example - *23/12/2025*
 
-For example, a shapefile object may consist of the following files:
-
-* example.shp
-* example.shx
-* example.dbf
-* example.sbn
-* example.prj
-
-However, all of these files can be listed as a single row in the metadata template, using the filename 'example.shp'. This ensures all files related to an object are ingested together and contain the same metadata. An example is listed in the template, which can be downloaded above.
+* Format - Date (DD/MM/YYYY format)
