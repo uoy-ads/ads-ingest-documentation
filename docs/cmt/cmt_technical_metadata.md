@@ -2,19 +2,20 @@
 
 Technical metadata refers to the descriptive information about data that helps to understand its technical characteristics, structure, and relationships. It is useful to include technical metadata with certain file types to provide more specific information.
 
-The new Ingest system enables depositors to utilise a single metadata template to upload their files to the system. However, for some data types additional technical metadata is required. Below is a full list of the file types that require an additional technical metadata file to be deposited with your collection.
+The new Ingest system enables depositors to utilise a single [Core Metadata template](cmt_index.md) to upload their files to the system. However, for some data categories additional technical metadata is required. Below is a full list of the [data categories](cmt_data_category.md) that require an additional technical metadata file to be deposited alongside your collection.
 
 ## How to upload your technical metadata
 
-The Technical metadata files should be included in the folder of files that you want to deposit and uploaded on the [Files](../nc/nc_files.md) page when you submit a new collection. It is not required to list these technical metadata files as a separate row in the [Core Metadata Template](./cmt_template_download.md), however, each file (with an appropriate  file extension) should be listed in the __Technical Metadata__ column in the template. If you fail to include a required Technical metadata file, or include the file but do not list it in the Core metadata template, then Ingest will produce an [error](../appendix/core_metadata_errors.md).
+To upload Technical metadata files, include them in the folder of files that you want to deposit and have uploaded on the [Files](../nc/nc_files.md) page when you submit a new collection. 
+
+It is not required to list these technical metadata files as a separate row in the [Core Metadata Template](./cmt_template_download.md), however, each file (with an appropriate  file extension) should be listed in the __Technical Metadata__ column of the Core Metadata template. If you fail to include a required Technical metadata file, or include the file but do not list it in the Core metadata template, then Ingest will produce an [error](../appendix/core_metadata_errors.md).
 
 ## Data types that require technical metadata
 
 The table below provides a list of templates that can be used for required Technical metadata. It is not mandatory to use these templates but they provide a useful starting point for the types of information that we would like to collect for some Data Categories.
 
-Each template contains an ‘Instructions’ tab that provides a list of fields and field descriptions for each data category. These templates can be used and amended as necessary to suit the needs of your collection.
+Each template contains sample data for each field . These templates can be used and amended as necessary to suit the needs of your collection. For a full list of the fields required for each technical metadata template please the [technical metadata field list](../cmt/cmt_tech_metadata_require.md).
 
-For a full list of the suggested fields for each technical metadata template see the [Appendix for this guidance](../cmt/cmt_tech_metadata_require.md).
 
 | Data Category | Affected file extensions | Technical Metadata Template |
 | :---- | :---- | :---- |
