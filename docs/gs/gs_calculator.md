@@ -5,7 +5,7 @@ The [Costing Calculator](https://ingest.archaeologydataservice.ac.uk/costing-cal
 To build a quote:
 
 1. First, enter the total size of the collection  in GB. This should be the size of all files that you wish to deposit.  
-2. Select the Data Category that you want to deposit. A full list of data categories accpeted by Ingest can be found in the [Data Category pages](../cmt/cmt_data_category.md).
+2. Select the Data Category that you want to deposit. A full list of data categories accepted by Ingest can be found in the [Data Category pages](../cmt/cmt_data_category.md).
    * Select the file extension for those files from the drop down list.  
    * Enter the number of files for that category (as well as any other information relevant to that specific category).
    * Once complete click the ‘Add to Quote’ button’.
