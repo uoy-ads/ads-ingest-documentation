@@ -7,7 +7,7 @@ To submit a new collection for deposition click the green ‘New Collection’ b
   <figcaption></figcaption>
 </figure>
 
-Navigate through the Collection menu using the menu on the left hand side of the screen.
+Navigate through the Collection menu using the tabs on the left hand side of the screen.
 
 <figure markdown="span">
   ![Ingest interface](./assets/ingest_interface.png){ width="550" }

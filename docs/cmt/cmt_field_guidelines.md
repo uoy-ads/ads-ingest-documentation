@@ -75,8 +75,8 @@ Enter the date this digital object was created. If this is a scan or replication
 
 * Format - Date (DD/MM/YYYY format)
 
-### Technical Metadata__
-Enter a filename for any Technical metadata. For specific data types, we require additional technical metadata. Further guidance on technical metadata, including templates can be found on the [Technical Metadata menu](../cmt/cmt_technical_metadata.md). If using multiple files, separate with a comma (,).
+### __Technical Metadata__
+Enter a filename for any Technical metadata. For specific data types, we require additional technical metadata. Further guidance on technical metadata, including templates can be found on the [Technical Metadata pages](../cmt/cmt_technical_metadata.md). If using multiple files, separate with a comma (,).
 
 > Example - *012345_ADS_database_metadata_Enviro_v2.xlsx*
 
