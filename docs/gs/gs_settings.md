@@ -14,7 +14,7 @@ If you selected a person you will need to complete the following fields:
 
 * First Name  
 * Last Name  
-* ORCID \- The sixteen digit reference number associated Open Researcher and Contributor ID (ORCiD)
+* ORCID \- Please enter the full URL including unique sixteen digit Open Researcher and Contributor ID (ORCiD) reference, e.g. https://orcid.org/0000-0000-0000-0000
 
 If you selected ‘Organisation’ you will only need to enter the Organisation name. 
 
@@ -32,7 +32,7 @@ If you selected ‘Person’ you will need to complete the following fields:
 
 * First Name   
 * Last Name   
-* ORCID \- The sixteen digit reference number associated Open Researcher and Contributor ID (ORCiD)  
+* ORCID \- Please enter the full URL including unique sixteen digit Open Researcher and Contributor ID (ORCiD) reference, e.g. https://orcid.org/0000-0000-0000-0000
 * Email address
 
 If you selected ‘Organisation’, you will need to complete the following fields:

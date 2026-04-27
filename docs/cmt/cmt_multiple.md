@@ -1,12 +1,12 @@
 # Multiple files per object
 
-In some instances you may wish to upload a single digital object that contains multiple files, such as a GIS shapefile or 3d model. In this case please add all files to the upload folder but include only one object (or row) in the core metadata template. This ensures all files related to an object are ingested together and contain the same metadata. The Ingest system will recognise all of these files as a single object, but only if all files contain the same filename or a grouped in a folder.
+In some instances you may wish to upload a single digital object that contains multiple files, such as a GIS shapefile or 3d model. In this case please add all files to the upload folder but include only one object (or row) in the core metadata template. This ensures all files related to an object are ingested together and contain the same metadata. The Ingest system will recognise all of these files as a single object, but only if all files contain the same filename or are grouped in a folder.
 
 ## Some examples
 
 Below are a number of common examples.
 
-*GIS Shapefiles* - Shapefiles are usually composed of a series of files have the same name but with a different file extension. A shapefile object may consist of the following files:
+*GIS Shapefiles* - Shapefiles are usually composed of a series of files that have the same name but with a different file extension. A shapefile object may consist of the following files:
 
 * example.shp
 * example.shx
@@ -41,11 +41,11 @@ Solution - You ave two options; either rename all of these files so that they ha
 
 The list below contains all Data Categories that are required to be formatted in this way:
 
-* geophysics-proprietary
-* geophysics
-* gis-data
-* lidar
-* laser-scanning
-* mass-spectrometry
-* photogrammetric-survey
-* rti
+* Geophysics (Proprietary)
+* Geophysics
+* Geographic Information System (GIS) Data
+* Light Detection and Ranging (LiDAR)
+* Laser Scanning
+* Mass Spectrometry
+* Photogrammetric Survey
+* Reflectance Transformation Imaging (RTI)

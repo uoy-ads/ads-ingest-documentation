@@ -19,13 +19,17 @@ Each template contains sample data for each field . These templates can be used 
 
 | Data Category | Affected file extensions | Technical Metadata Template |
 | :---- | :---- | :---- |
-| Audiovisual | acc, aif, au, avi, bwf, flack, mkv, mp3, mp4, mpeg, mpg, avg, wav | [Audiovisual technical metadata template](https://raw.githubusercontent.com/uoy-ads/ads-ingest-documentation/master/technical_metadata/audiovisual_metadata_template.xlsx){target="_blank"} |
-| Geographic Information System (GIS) Data | adf, asc, csv, e00, geojson, gml, img, jpg, kml, mid, png, shp, tif | [GIS technical metadata template](https://raw.githubusercontent.com/uoy-ads/ads-ingest-documentation/master/technical_metadata/gis_metadata_template.xlsx) |
-| Geophysics | csv, dat, mgr, rep, sgy, txt, xcp | [Geophysical Survey technical metadata template](https://raw.githubusercontent.com/uoy-ads/ads-ingest-documentation/main/technical_metadata/geophysical_survey_metadata_template.xlsx) |
-| Geophysics (Proprietary)| All file types | [Geophysical Survey technical metadata template](https://raw.githubusercontent.com/uoy-ads/ads-ingest-documentation/main/technical_metadata/geophysical_survey_metadata_template.xlsx) |
-| Laser Scanning | tif, txt, e57, las, obj, pts | [3D technical metadata template](https://raw.githubusercontent.com/uoy-ads/ads-ingest-documentation/master/technical_metadata/3D_technical_metadata.xlsx) |
-| Light Detection and Ranging (LiDAR) | tif, txt, e57, las, obj, pts | [3D technical metadata template](https://raw.githubusercontent.com/uoy-ads/ads-ingest-documentation/master/technical_metadata/3D_technical_metadata.xlsx) |
-| Photogrammetric Survey | dng, jpg, obj, pts, tiff, wrl | [3D technical metadata template](https://raw.githubusercontent.com/uoy-ads/ads-ingest-documentation/master/technical_metadata/3D_technical_metadata.xlsx) |
-| Tabular Data | accdb, csv, dbf, json, mdb, odb, ods, rdf, sql, tsv, txt, xls, xlsx, xml | [Tabular Data technical metadata template](https://raw.githubusercontent.com/uoy-ads/ads-ingest-documentation/master/technical_metadata/tabular_data_metadata_template.xlsx) |
-| Vector Graphic | dwg, dxf, svg | [Vector Graphic technical metadata template](https://raw.githubusercontent.com/uoy-ads/ads-ingest-documentation/master/technical_metadata/vector_graphic_metadata_template.xlsx) |
-| Virtual Reality and Visualisation | obj, stl, wrl | [3D technical metadata template](https://raw.githubusercontent.com/uoy-ads/ads-ingest-documentation/master/technical_metadata/3D_technical_metadata.xlsx) |
+| Audiovisual | acc, aif, au, avi, bwf, flack, mkv, mp3, mp4, mpeg, mpg, avg, wav | [Audiovisual technical metadata]() |
+| Computed Tomography (CT) Scanning | bmp, dcm, gif, jpg, png, tif | [CT Scanning technical metadata]() |
+| Geophysics | csv, dat, mgr, rep, sgy, txt, xcp | Geophysics Scanning technical metadata |
+| Geographic Information System (GIS) Data | adf, asc, csv, e00, geojson, gml, img, jpg, kml, mid, png, shp, tif | [GIS technical metadata]() |
+| Laser Scanning | tif, txt, e57, las, obj, pts | [Laser scanning technical metadata]() |
+| Light Detection and Ranging (LiDAR) | tif, txt, e57, las, obj, pts | [LiDAR technical metadata]() |
+| Magnetic Resonance Imaging (MRI) | bmp, dcm, gif, jpg, png, tif \[video\] | [MRI technical metadata]() |
+| Mass Spectrometry | jdx, mzdata, mzml, mzxml, txt, xml | [Mass Spectrometry technical metadata]() |
+| Photogrammetric Survey | dng, jpg, obj, pts, tiff, wrl | [Photogrammetric Survey technical metadata]() |
+| Reflectance Transformation Imaging (RTI) | dng, jpg, obj, ptm, rti, wrl, tif, | [RTI technical metadata]() |
+| Tabular Data | accdb, csv, dbf, json, mdb, odb, ods, rdf, sql, tsv, txt, xls, xlsx, xml | [Tabular data technical metadata]() |
+| Vector Graphic | dwg, dxf, svg | Vector Graphic technical metadata |
+| Virtual Reality and Visualisation | obj, stl, wrl | [Virtual Reality and Visualisation technical metadata]() |
+| X-radiography (X-ray) Scanning | bmp, dcm, gif, jpg, png, tif | [X-Ray technical metadata]() |

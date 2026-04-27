@@ -17,6 +17,6 @@ For example:
 * For a research project it might include different aspects of your funded project (i.e. database, scientific analysis)
 * For a community archaeology project it might include different aspects of community engagement (i.e. archival search, 2021 fieldwalking survey, community workshop).
 
-If you have a very large project, such as a [infrastructure project](https://doi.org/10.5284/1081262), road scheme or railway line, you can also organise your sites into a series of collections. These collections can be organised under a [single umbrella collection](https://doi.org/10.5284/1113008). 
+If you have a very large project, such as an [infrastructure project](https://doi.org/10.5284/1081262), road scheme or railway line, you can also organise your sites into a series of collections. These collections can be organised under a [single umbrella collection](https://doi.org/10.5284/1113008). 
 
 If you are unsure of how to organise your collection, contact the [Helpdesk](https://archaeologydataservice.ac.uk/contact/) for assistance.

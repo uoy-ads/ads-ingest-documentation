@@ -5,7 +5,7 @@ When depositing files in the Ingest system you can structure your data in one of
 
 The easiest method for depositing your files is to save all of your files within a single folder and then drag and drop that folder into the Ingest system. However, you may have organised your files within a specific and logical [data structure](https://archaeologydataservice.ac.uk/help-guidance/instructions-for-depositors/data-structure/) that relates to your project. If so, this folder structure can be accommodated within the Ingest process and be reflected in the final web interface once your data is live. To ensure the system will recognise your files, include the sub-folder name within the filename in the metadata template. 
 
-In addition, you be depositing digital object that contains multiple files, such as a GIS shapefile or 3d model. These objects can also de deposited within folders. Further information is provided on the [Multiple files per object page](../cmt/cmt_multiple.md).
+In addition, you can use folders when depositing digital objects that contains multiple files, such as a GIS shapefile or 3d model. Further information is provided on the [Multiple files per object page](../cmt/cmt_multiple.md).
 
 ### An example
 
