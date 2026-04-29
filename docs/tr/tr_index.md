@@ -8,19 +8,19 @@ If you're new to Ingest, try some of these following steps:
 
 **Read through our Online Guidance**
 Start at the beginning of our Online Guidance and work through step by step, building from basic concepts to more advanced features,
-👉 [View Getting Started Pages](#)
+👉 [View Getting Started Pages](../gs/gs_introduction.md)
 
 **Attend an Introduction to Ingest session**
 Our live online training session walks you through the system step by step, including a live demonstration and hands-on practice.
-👉 [View dates and register](#)
+👉 [View more information](tr_intro_ingest.md) and register below 👇
 
 **Try a practice deposit**
 Use our training dataset to complete a practice deposit before working with your own data.
-👉 [Download our training dataset](https://bit.ly/Ingest26)
+👉 [Download our training dataset](https://drive.google.com/file/d/1HbYfgL6S_hqWm2BZRY36V-DYjGT2WVvX/view)
 
 **Get further help at a Q&A Drop-in session**
 Once you've completed basic training, join one of our fortnightly drop-in sessions to ask questions specific to your datasets and workflows.
-👉 [View drop-in dates and register](#)
+👉 [View more information](tr_ingest_qa.md) and register below 👇
 
 
 ## Upcoming Sessions
