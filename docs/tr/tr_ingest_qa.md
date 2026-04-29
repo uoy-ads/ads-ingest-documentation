@@ -58,7 +58,9 @@ All participants are expected to act respectfully and inclusively throughout the
 
 👉 [Read the full Code of Conduct](../tr/tr_conduct.md)
 
-Any concerns during the session can be reported directly to Nicky or via email to the ADS Helpdesk[help@archaeologydataservice.ac.uk](mailto:help@archaeologydataservice.ac.uk) 
+
+Any concerns during the session can be reported directly to Nicky or via email to the ADS Helpdesk - [help@archaeologydataservice.ac.uk](mailto:help@archaeologydataservice.ac.uk) 
+
 ---
 
 ## Contact
