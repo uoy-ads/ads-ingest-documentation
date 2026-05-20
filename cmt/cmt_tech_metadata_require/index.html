@@ -1,0 +1,3778 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://uoy-ads.github.io/ads-ingest-documentation/cmt/cmt_tech_metadata_require/">
+      
+      
+        <link rel="prev" href="../cmt_technical_metadata/">
+      
+      
+        <link rel="next" href="../../tr/tr_index/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/Ingest_favicon_circle.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Technical Metadata Requirements - Guidance</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,700,700i%7CPoppins:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Poppins";--md-code-font:"Poppins"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#technical-metadata-requirements" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Guidance" class="md-header__button md-logo" aria-label="Guidance" data-md-component="logo">
+      
+  <img src="../../assets/Ingest_logo2.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Guidance
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Technical Metadata Requirements
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../gs/gs_introduction/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Getting Started
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../nc/nc_index/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  New Collections
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../cmt_index/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Core Metadata Template
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../tr/tr_index/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Training
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../appendix/appendix_index/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Troubleshooting
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+  
+        
+      
+  
+
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Guidance" class="md-nav__button md-logo" aria-label="Guidance" data-md-component="logo">
+      
+  <img src="../../assets/Ingest_logo2.png" alt="logo">
+
+    </a>
+    Guidance
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Getting Started
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gs/gs_introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gs/gs_register/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Register via UMA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gs/gs_structure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How you should structure your Collection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gs/gs_dashboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dashboard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gs/gs_collections/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Collection List
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gs/gs_messages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Messages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gs/gs_settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gs/gs_calculator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Costing Calculator
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    New Collections
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    New Collections
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nc/nc_index/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Submitting a New Collection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nc/nc_collection_info/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Collection Information
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nc/nc_projects/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nc/nc_location/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Location
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nc/nc_discovery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Discovery Metadata
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nc/nc_related/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Related Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nc/nc_people/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    People & Organisations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nc/nc_files/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Files
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nc/nc_costs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Costs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nc/nc_invoice/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Invoice Details
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nc/nc_submit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Submitting a Collection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Core Metadata Template
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Core Metadata Template
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmt_index/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Completing the Core Metadata Template
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmt_template_download/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Template Download
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmt_field_guidelines/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Field Guidelines
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmt_multiple/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Multiple Files
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmt_data_category/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Category
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmt_folder_structure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Folder Structure
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmt_technical_metadata/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technical Metadata
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technical Metadata Requirements
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technical Metadata Requirements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#audiovisual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Audiovisual
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#geographic-information-system-gis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geographic Information System (GIS)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#geophysics-and-geophysics-proprietary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geophysics and Geophysics (Proprietary)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Geophysics and Geophysics (Proprietary)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#all-survey-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        All survey types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#electro-magnetic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Electro-magnetic
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ground-penetrating-radar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ground Penetrating Radar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#magnetometer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Magnetometer
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resistance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resistance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#maritime-sonar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Maritime Sonar
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#laser-scanning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Laser Scanning
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Laser Scanning">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#datasets-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Datasets - Components
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#laser-scan-capture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Laser Scan - Capture
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#photography-camera" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Photography - Camera
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#photography-calibration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Photography - Calibration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#survey-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Survey Control
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registration-alignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registration Alignment
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#light-detection-and-ranging-lidar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Light Detection and Ranging (LiDAR)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Light Detection and Ranging (LiDAR)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#datasets-components_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Datasets - Components
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#laser-scan-capture_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Laser Scan - Capture
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#survey-control_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Survey Control
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registration-alignment_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registration Alignment
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#photogrammetric-survey" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Photogrammetric Survey
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Photogrammetric Survey">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#datasets-components_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Datasets - Components
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabular-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabular Data
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vector-graphics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vector Graphics
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#virtual-reality-and-visualisation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Virtual Reality and Visualisation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Virtual Reality and Visualisation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#datasets-components_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Datasets - Components
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Training
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Training
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tr/tr_index/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tr/tr_intro_ingest/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction to Ingest
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tr/tr_ingest_qa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Q & A Drop-in Sessions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tr/tr_conduct/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Code of Conduct
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Troubleshooting
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendix/appendix_index/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Addressing errors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendix/core_metadata_errors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Core Metadata Errors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendix/file_upload_errors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    File Upload Errors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#audiovisual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Audiovisual
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#geographic-information-system-gis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geographic Information System (GIS)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#geophysics-and-geophysics-proprietary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geophysics and Geophysics (Proprietary)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Geophysics and Geophysics (Proprietary)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#all-survey-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        All survey types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#electro-magnetic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Electro-magnetic
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ground-penetrating-radar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ground Penetrating Radar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#magnetometer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Magnetometer
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resistance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resistance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#maritime-sonar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Maritime Sonar
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#laser-scanning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Laser Scanning
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Laser Scanning">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#datasets-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Datasets - Components
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#laser-scan-capture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Laser Scan - Capture
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#photography-camera" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Photography - Camera
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#photography-calibration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Photography - Calibration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#survey-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Survey Control
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registration-alignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registration Alignment
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#light-detection-and-ranging-lidar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Light Detection and Ranging (LiDAR)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Light Detection and Ranging (LiDAR)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#datasets-components_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Datasets - Components
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#laser-scan-capture_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Laser Scan - Capture
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#survey-control_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Survey Control
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registration-alignment_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registration Alignment
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#photogrammetric-survey" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Photogrammetric Survey
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Photogrammetric Survey">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#datasets-components_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Datasets - Components
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabular-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabular Data
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vector-graphics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vector Graphics
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#virtual-reality-and-visualisation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Virtual Reality and Visualisation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Virtual Reality and Visualisation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#datasets-components_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Datasets - Components
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+  
+    
+                  
+
+
+
+<h1 id="technical-metadata-requirements">Technical Metadata Requirements</h1>
+<p>Below is a list of all the fields required Technical Metadata uploaded to the Ingest system. Please see the <a href="../cmt_technical_metadata/">Technical metadata page</a> for further information including a full list of data categories that require technical metadata to be deposited alongside your collection.</p>
+<hr />
+<h2 id="audiovisual">Audiovisual</h2>
+<p><a href="https://raw.githubusercontent.com/uoy-ads/ads-ingest-documentation/master/technical_metadata/audiovisual_metadata_template.xlsx">Download the Audiovisual Technical Metadata template</a></p>
+<table>
+<thead>
+<tr>
+<th>Field name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Filename</strong></td>
+<td>Filename of each separate audiovisual file including file extension</td>
+</tr>
+<tr>
+<td><strong>Video codec</strong></td>
+<td>The name and version of video codec (where appropriate)</td>
+</tr>
+<tr>
+<td><strong>Video dimension</strong></td>
+<td>The video dimension (in pixels)</td>
+</tr>
+<tr>
+<td><strong>Frame rate</strong></td>
+<td>Frame rate per second (fps)</td>
+</tr>
+<tr>
+<td><strong>Bit rate</strong></td>
+<td>The video bit rate</td>
+</tr>
+<tr>
+<td><strong>Audio codec</strong></td>
+<td>The codec used in creating the file e.g. FLAC or AAC</td>
+</tr>
+<tr>
+<td><strong>Audio sample frequency</strong></td>
+<td>Sample rate e.g. 44.1kHz</td>
+</tr>
+<tr>
+<td><strong>Audio bit-rate</strong></td>
+<td>Optional, often recorded as kbps</td>
+</tr>
+<tr>
+<td><strong>Audio channels</strong></td>
+<td>e.g. stereo, mono</td>
+</tr>
+<tr>
+<td><strong>Length</strong></td>
+<td>Length of recording in hh : mm : ss</td>
+</tr>
+<tr>
+<td><strong>Transcript file name</strong></td>
+<td>Transcripts of interviews can be important documentation particularly in clarifying those involved in recordings and allowing specific individuals to be identified</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="geographic-information-system-gis">Geographic Information System (GIS)</h2>
+<p><a href="https://raw.githubusercontent.com/uoy-ads/ads-ingest-documentation/master/technical_metadata/gis_metadata_template.xlsx">Download the GIS Data Technical Metadata template</a></p>
+<table>
+<thead>
+<tr>
+<th>Field Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Filename</strong></td>
+<td>Filename of each separate GIS file including file extension</td>
+</tr>
+<tr>
+<td><strong>Data type</strong></td>
+<td>Please specify if the file is vector (i.e. point, polygon or line) or raster</td>
+</tr>
+<tr>
+<td><strong>Scale/resolution</strong></td>
+<td>The scale/resolution of the data at capture (and at storage, if this differs from the original capture resolution)</td>
+</tr>
+<tr>
+<td><strong>Assessment of data quality</strong></td>
+<td>An assessment or statement about the quality and accuracy of the data used and/or created within the GIS</td>
+</tr>
+<tr>
+<td><strong>Method of data capture</strong></td>
+<td>How the data used within the GIS was created or captured</td>
+</tr>
+<tr>
+<td><strong>Purpose of data creation</strong></td>
+<td>The reason why the data was collected, and the GIS created</td>
+</tr>
+<tr>
+<td><strong>Coordinate grid system</strong></td>
+<td>The coordinate grid system utilised within the GIS</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td>The source of the data used in the creation of the GIS ('bought from Ordnance Survey', etc.)</td>
+</tr>
+<tr>
+<td><strong>Table attribute / field</strong> <em>(vector)</em></td>
+<td>Please list each attribute/field/column within the GIS attribute table</td>
+</tr>
+<tr>
+<td><strong>Table attribute description</strong> <em>(vector)</em></td>
+<td>A description of attribute, explaining codes or abbreviations</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="geophysics-and-geophysics-proprietary">Geophysics and Geophysics (Proprietary)</h2>
+<p><a href="https://raw.githubusercontent.com/uoy-ads/ads-ingest-documentation/main/technical_metadata/geophysical_survey_metadata_template.xlsx">Download the Geophysics Technical Metadata template</a></p>
+<h3 id="all-survey-types">All survey types</h3>
+<p>The following should be provided for all geophysical survey types:</p>
+<table>
+<thead>
+<tr>
+<th>Field Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>File names</strong></td>
+<td>Including file extension, place a comma between each name</td>
+</tr>
+<tr>
+<td><strong>Survey name</strong></td>
+<td>If your survey has an alternative title to the one provided during the creation of the project metadata, you can add it here</td>
+</tr>
+<tr>
+<td><strong>Survey index</strong></td>
+<td>The identification number or code used internally for the survey and any related data identifier</td>
+</tr>
+<tr>
+<td><strong>Survey purpose</strong></td>
+<td>A brief description of the purpose of the geophysical survey</td>
+</tr>
+<tr>
+<td><strong>Survey duration</strong></td>
+<td>Start and end date for the survey</td>
+</tr>
+<tr>
+<td><strong>Survey by</strong></td>
+<td>The person and/or organisation responsible for carrying out the survey</td>
+</tr>
+<tr>
+<td><strong>Solid geology</strong></td>
+<td>A record of the base geology for the location where the survey was carried out</td>
+</tr>
+<tr>
+<td><strong>Drift geology</strong></td>
+<td>The overlying drift geology for the place where the survey was carried out</td>
+</tr>
+<tr>
+<td><strong>Land use</strong></td>
+<td>The prevailing land use for the area being surveyed</td>
+</tr>
+<tr>
+<td><strong>Survey type</strong></td>
+<td>The technique used to carry out the survey</td>
+</tr>
+<tr>
+<td><strong>Instrumentation</strong></td>
+<td>Specific information about the type and configuration of the equipment used during the survey</td>
+</tr>
+<tr>
+<td><strong>Area surveyed</strong></td>
+<td>The</td>
+</tr>
+</tbody>
+</table>
+<p>The following should be also be included for the relevant survey type(s):</p>
+<h3 id="electro-magnetic">Electro-magnetic</h3>
+<table>
+<thead>
+<tr>
+<th>Field Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Coil configuration</strong></td>
+<td>The distance of the coils within the instrument used for the electromagnetic survey</td>
+</tr>
+<tr>
+<td><strong>Recorded component</strong></td>
+<td>The recorded electromagnetic component needs to be specified</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ground-penetrating-radar">Ground Penetrating Radar</h3>
+<table>
+<thead>
+<tr>
+<th>Field Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Antenna information</strong></td>
+<td>For surveys using pulse radar systems, the centre frequency of the antenna should be recorded</td>
+</tr>
+<tr>
+<td><strong>Time delay</strong></td>
+<td>The time delay for the recording of the first reflection expressed in seconds</td>
+</tr>
+<tr>
+<td><strong>Time sampling resolution</strong></td>
+<td>The resolution of the time sampling expressed in seconds</td>
+</tr>
+<tr>
+<td><strong>Time span</strong></td>
+<td>The maximum time span of the recording expressed in seconds</td>
+</tr>
+<tr>
+<td><strong>Average subsurface velocity</strong></td>
+<td>An estimate of the electromagnetic velocity to allow the conversion of two way travel times to depth</td>
+</tr>
+<tr>
+<td><strong>Average subsurface note</strong></td>
+<td>A statement/note about how the Average Subsurface Velocity was derived</td>
+</tr>
+</tbody>
+</table>
+<h3 id="magnetometer">Magnetometer</h3>
+<table>
+<thead>
+<tr>
+<th>Field Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Magnetic north</strong></td>
+<td>The orientation of the coordinate system/grid in relation to Magnetic North</td>
+</tr>
+<tr>
+<td><strong>Instrument drift</strong></td>
+<td>During any survey the magnetometer may exhibit evidence of a gradual change in its readings</td>
+</tr>
+</tbody>
+</table>
+<h3 id="resistance">Resistance</h3>
+<table>
+<thead>
+<tr>
+<th>Field Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Electrode configuration</strong></td>
+<td>Any responses from below ground features are heavily influenced by the configuration of electrodes used</td>
+</tr>
+<tr>
+<td><strong>Electrode spacing</strong></td>
+<td>The distance between electrodes must be recorded in order to process the data collected during a survey</td>
+</tr>
+<tr>
+<td><strong>Multiple configurations</strong></td>
+<td>Earth resistance data can be recorded at each measurement location using different electrode configurations by means of a multiplexer</td>
+</tr>
+</tbody>
+</table>
+<h3 id="maritime-sonar">Maritime Sonar</h3>
+<table>
+<thead>
+<tr>
+<th>Field Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Average water velocity</strong></td>
+<td>The average water velocity during the survey in m/s</td>
+</tr>
+<tr>
+<td><strong>Sonar frequency</strong></td>
+<td>The frequency of the sonar in kHz</td>
+</tr>
+<tr>
+<td><strong>Beam width at nadir</strong></td>
+<td>An estimate of the beam width gap in degrees at nadir</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="laser-scanning">Laser Scanning</h2>
+<p><a href="https://raw.githubusercontent.com/uoy-ads/ads-ingest-documentation/master/technical_metadata/3D_technical_metadata.xlsx">Download the 3D Technical Metadata template</a></p>
+<p>Please note that this template is utilised by multiple data categories including LIDAR, Photogrammetric Survey and Virtual Reality and Visualisation.</p>
+<p>This template contains several worksheets that should be completed. The headings below relate to the names of the specific worksheets that should be completed for this Data Category.</p>
+<h3 id="datasets-components">Datasets - Components</h3>
+<table>
+<thead>
+<tr>
+<th>Field Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>File/Group Name</strong></td>
+<td>The name of the file or group of files e.g. model1.obj; /source_images/; /raw_scans/; registered_point_cloud.e57</td>
+</tr>
+<tr>
+<td><strong>Title</strong></td>
+<td>e.g. Landscape Surrounding Site 1 (Reduced Model)</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>e.g. Decimated model created from model1</td>
+</tr>
+<tr>
+<td><strong>Software Used</strong></td>
+<td>Specify software and version used for meshing, e.g. 3DReshaper 11.1.4.24994</td>
+</tr>
+<tr>
+<td><strong>Source File(s) / Relationships</strong></td>
+<td>Specify file names/locations of source files e.g. point cloud source data for meshing (laser scan) or list of photos (photogrammetry). Large lists of e.g. images can be stored in a separate file (include name here)</td>
+</tr>
+<tr>
+<td><strong>Point Cloud Decimation (pre-meshing)</strong></td>
+<td>Yes or No. If yes, specify amount/level</td>
+</tr>
+<tr>
+<td><strong>Hole Filling</strong></td>
+<td>Yes or No</td>
+</tr>
+<tr>
+<td><strong>Smoothing</strong></td>
+<td>Yes or No</td>
+</tr>
+<tr>
+<td><strong>Data Reduction</strong></td>
+<td>Yes or No. If yes, specify level of decimation</td>
+</tr>
+<tr>
+<td><strong>RGB Colour or Texture Included</strong></td>
+<td>Yes or No. If Yes then provide details</td>
+</tr>
+<tr>
+<td><strong>Number of Triangles or Polygons</strong></td>
+<td>Total number of triangles in the mesh file where applicable</td>
+</tr>
+<tr>
+<td><strong>Number of Vertices</strong></td>
+<td>Number of vertices in data where applicable</td>
+</tr>
+<tr>
+<td><strong>Validated as Watertight</strong></td>
+<td>Yes or No</td>
+</tr>
+<tr>
+<td><strong>Additional Processing Notes</strong></td>
+<td>Notes on any additional processing</td>
+</tr>
+<tr>
+<td><strong>Healing/Despiking</strong></td>
+<td>Yes or No</td>
+</tr>
+<tr>
+<td><strong>Coordinate System Used / Adjusted</strong></td>
+<td>Yes or No. If yes and adjusted then provide details (e.g. transformation matrix)</td>
+</tr>
+<tr>
+<td><strong>Scale</strong></td>
+<td>If scale used, what is represented by 1 unit</td>
+</tr>
+<tr>
+<td><strong>Creators</strong></td>
+<td>Creators for this data</td>
+</tr>
+<tr>
+<td><strong>Copyright Holders</strong></td>
+<td>Copyright holders for this data</td>
+</tr>
+<tr>
+<td><strong>Creation Date</strong></td>
+<td>Date file was created</td>
+</tr>
+</tbody>
+</table>
+<h3 id="laser-scan-capture">Laser Scan - Capture</h3>
+<table>
+<thead>
+<tr>
+<th>Field Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Scanner details</strong></td>
+<td>Specify the name, technology, serial number, firmware version and last calibration date of scanner(s) used in the project</td>
+</tr>
+<tr>
+<td><strong>Scan Resolution</strong></td>
+<td>Resolution settings on scanner</td>
+</tr>
+<tr>
+<td><strong>Noise/Quality Settings</strong></td>
+<td>Noise settings on scanner</td>
+</tr>
+<tr>
+<td><strong>Lens or FOV details</strong> <em>(optional)</em></td>
+<td>Triangulation scanners only. Indicate which lens or FOV was used during scan</td>
+</tr>
+<tr>
+<td><strong>Number of points per scan</strong> <em>(optional)</em></td>
+<td>Specify number of points per scan</td>
+</tr>
+<tr>
+<td><strong>Measurement Technology</strong></td>
+<td>Specify technology used: TOF (first or last return), Phase (frequency settings), Waveform</td>
+</tr>
+<tr>
+<td><strong>Onboard photography?</strong></td>
+<td>Whether the scanner captures images. Y/N</td>
+</tr>
+</tbody>
+</table>
+<h3 id="photography-camera">Photography - Camera</h3>
+<table>
+<thead>
+<tr>
+<th>Field Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Photography Type</strong></td>
+<td>Specify photography type e.g.: still, HDR (specify brackets), onboard scanner, 360°, etc.</td>
+</tr>
+<tr>
+<td><strong>Exposure settings</strong></td>
+<td>Exposure settings set on scanner (if applicable)</td>
+</tr>
+<tr>
+<td><strong>Camera and lens</strong></td>
+<td>Specify camera model and lens used</td>
+</tr>
+<tr>
+<td><strong>Firmware version</strong></td>
+<td>Specify camera firmware version</td>
+</tr>
+<tr>
+<td><strong>Aperture</strong></td>
+<td>Specify the f-stop</td>
+</tr>
+<tr>
+<td><strong>Image resolution</strong></td>
+<td>Specify image resolution</td>
+</tr>
+<tr>
+<td><strong>Image file format</strong></td>
+<td>Specify the file format</td>
+</tr>
+<tr>
+<td><strong>Reference card / calibration target used?</strong></td>
+<td>Was a reference card captured for calibrating white/grey balance? Include target dimensions, creator and description</td>
+</tr>
+<tr>
+<td><strong>Camera Calibrated?</strong></td>
+<td>Yes / No. If Yes complete 'Photography Calibration' section</td>
+</tr>
+</tbody>
+</table>
+<h3 id="photography-calibration">Photography - Calibration</h3>
+<table>
+<thead>
+<tr>
+<th>Field Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Calibration Date</strong></td>
+<td>Date that the calibration was performed</td>
+</tr>
+<tr>
+<td><strong>Camera Calibration File</strong></td>
+<td>File name for the camera calibration</td>
+</tr>
+<tr>
+<td><strong>Array Dimensions</strong></td>
+<td>Width and height of digital array measured in pixels and millimeters</td>
+</tr>
+<tr>
+<td><strong>Focal Length and Principal Point</strong></td>
+<td>Exact focal length and principal point location as measured by the camera calibration</td>
+</tr>
+<tr>
+<td><strong>Lens Distortions</strong></td>
+<td>Radial and decentering distortion parameters as measured by the camera calibration</td>
+</tr>
+<tr>
+<td><strong>Affine Distortions</strong></td>
+<td>Affine distortion parameters as measured by the camera calibration (if measured)</td>
+</tr>
+<tr>
+<td><strong>Calibration Quality Values</strong></td>
+<td>Quality values such as overall RMS, maximum residual, and photo coverage (%) from the calibration process</td>
+</tr>
+<tr>
+<td><strong>Calibration Adjustment Report</strong></td>
+<td>A report on the quality of the camera calibration including at a minimum the correlation between exterior and interior parameters</td>
+</tr>
+</tbody>
+</table>
+<h3 id="survey-control">Survey Control</h3>
+<table>
+<thead>
+<tr>
+<th>Field Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Control Data</strong></td>
+<td>Yes/No. Specify if control data has been collected</td>
+</tr>
+<tr>
+<td><strong>Related Control Files</strong></td>
+<td>Specify filenames if related control files (e.g. software exports) or witness diagrams are included</td>
+</tr>
+<tr>
+<td><strong>Permanent Survey Markers (PSM)</strong></td>
+<td>Yes/No. Where used, specify when PSM coordinates were obtained (preferably within 12 months of survey)</td>
+</tr>
+<tr>
+<td><strong>Scale Used</strong></td>
+<td>Yes/No. Specify type e.g. measurement, scale bar, 3D reference, etc.</td>
+</tr>
+<tr>
+<td><strong>Additional Notes</strong></td>
+<td>Additional notes on survey control and reference information. Describe any existing reference information available to the surveyors, including paper plans or digital spatial data</td>
+</tr>
+<tr>
+<td><strong>GNSS</strong></td>
+<td>Yes/No. If yes complete fields below</td>
+</tr>
+<tr>
+<td><strong>Instrument details (GNSS)</strong></td>
+<td>Specify the name, serial number, firmware version and last calibration date of instrument(s) used in the project</td>
+</tr>
+<tr>
+<td><strong>GNSS method</strong></td>
+<td>Fixed base station / virtual reference system</td>
+</tr>
+<tr>
+<td><strong>Transformation system used for georeferencing</strong></td>
+<td>Transformation system used for georeferencing e.g. OSTN02 / OSTN15</td>
+</tr>
+<tr>
+<td><strong>Scale factor included</strong></td>
+<td>Yes/No</td>
+</tr>
+<tr>
+<td><strong>TotalStation</strong></td>
+<td>Yes/No. If Yes then complete fields below</td>
+</tr>
+<tr>
+<td><strong>Instrument details (TotalStation)</strong></td>
+<td>Specify the name, serial number, firmware version and last calibration date of instrument(s) used in the project, e.g. Leica Nova MS50 - Serial: 368276</td>
+</tr>
+<tr>
+<td><strong>Traverse (mis-closure) error</strong></td>
+<td>Specify angular error and distance error</td>
+</tr>
+<tr>
+<td><strong>Traverse Adjusted?</strong></td>
+<td>Y/N. Specify what method of adjustment was used, the error ratio e.g. 1/10000, 1/100000 etc.</td>
+</tr>
+<tr>
+<td><strong>Traverse Accuracy</strong></td>
+<td>Specify the accuracy of the control traverse</td>
+</tr>
+</tbody>
+</table>
+<h3 id="registration-alignment">Registration Alignment</h3>
+<table>
+<thead>
+<tr>
+<th>Field Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Dataset name</strong></td>
+<td>Specify file name for registered dataset, e.g. Cyclone IMP of Faro Scene project</td>
+</tr>
+<tr>
+<td><strong>Software (including version)</strong></td>
+<td>e.g. Leica Cyclone 9.1.5</td>
+</tr>
+<tr>
+<td><strong>Scans/images imported as native format?</strong></td>
+<td>Y / N (If no, specify exchange format)</td>
+</tr>
+<tr>
+<td><strong>RGB information included?</strong></td>
+<td>Y / N</td>
+</tr>
+<tr>
+<td><strong>Scans cleaned?</strong></td>
+<td>Y / N. Specify method/filtering</td>
+</tr>
+<tr>
+<td><strong>Cleaned scans used for registration?</strong></td>
+<td>Y / N</td>
+</tr>
+<tr>
+<td><strong>Control data used for georeferencing</strong></td>
+<td>Specify file name (control) or list of points</td>
+</tr>
+<tr>
+<td><strong>Method</strong></td>
+<td>Describe the registration method, including use of targets, cloud constraints, survey control and georeferencing method and nesting</td>
+</tr>
+<tr>
+<td><strong>Scan/Image Details</strong></td>
+<td>List of raw scans (filenames) and number of points-per-scan used in registered dataset</td>
+</tr>
+<tr>
+<td><strong>Total Number of Points in File</strong></td>
+<td>Total number of points in registered file</td>
+</tr>
+<tr>
+<td><strong>Max Registration Error (mm)</strong></td>
+<td>Max RMS error - in case of nested registrations, specify max RMS error for each registration</td>
+</tr>
+<tr>
+<td><strong>Global Registration Error</strong></td>
+<td>Total Mean Absolute Error - in case of nested registrations, specify MAE for each registration</td>
+</tr>
+<tr>
+<td><strong>Max Georeferencing Error (mm)</strong></td>
+<td>Max RMS error for georeferencing the registered dataset (registering final registered point cloud to GNSS data or existing PSMs)</td>
+</tr>
+<tr>
+<td><strong>Registration Diagnostics</strong></td>
+<td>List diagnostics.txt file(s) - in case of nested registrations, specify diagnostics file for each one</td>
+</tr>
+<tr>
+<td><strong>Overlap Reduction</strong></td>
+<td>Y/N (optional)</td>
+</tr>
+<tr>
+<td><strong>Smoothing</strong></td>
+<td>Y/N (optional)</td>
+</tr>
+<tr>
+<td><strong>Subsampling</strong></td>
+<td>Y/N (optional)</td>
+</tr>
+<tr>
+<td><strong>Colour Editions</strong></td>
+<td>Y/N (optional)</td>
+</tr>
+<tr>
+<td><strong>Point Editing Summary</strong></td>
+<td>Description of major editing operations (e.g. overlap reduction, point deletion, etc.) that have been performed on the dataset</td>
+</tr>
+<tr>
+<td><strong>Dataset Description</strong></td>
+<td>General description or purpose of dataset</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="light-detection-and-ranging-lidar">Light Detection and Ranging (LiDAR)</h2>
+<p><a href="https://raw.githubusercontent.com/uoy-ads/ads-ingest-documentation/master/technical_metadata/3D_technical_metadata.xlsx">Download the 3D Technical Metadata template</a></p>
+<p>Please note that this template is utilised by multiple data categories including Laser Scanning, Photogrammetric Survey and Virtual Reality and Visualisation.</p>
+<p>This template contains several worksheets that should be completed. The headings below relate to the names of the specific worksheets that should be completed for this Data Category.</p>
+<h3 id="datasets-components_1">Datasets - Components</h3>
+<table>
+<thead>
+<tr>
+<th>Field Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>File/Group Name</strong></td>
+<td>The name of the file or group of files e.g. model1.obj; /source_images/; /raw_scans/; registered_point_cloud.e57</td>
+</tr>
+<tr>
+<td><strong>Title</strong></td>
+<td>e.g. Landscape Surrounding Site 1 (Reduced Model)</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>e.g. Decimated model created from model1</td>
+</tr>
+<tr>
+<td><strong>Software Used</strong></td>
+<td>Specify software and version used for meshing, e.g. 3DReshaper 11.1.4.24994</td>
+</tr>
+<tr>
+<td><strong>Source File(s) / Relationships</strong></td>
+<td>Specify file names/locations of source files e.g. point cloud source data for meshing (laser scan) or list of photos (photogrammetry). Large lists of e.g. images can be stored in a separate file (include name here)</td>
+</tr>
+<tr>
+<td><strong>Point Cloud Decimation (pre-meshing)</strong></td>
+<td>Yes or No. If yes, specify amount/level</td>
+</tr>
+<tr>
+<td><strong>Hole Filling</strong></td>
+<td>Yes or No</td>
+</tr>
+<tr>
+<td><strong>Smoothing</strong></td>
+<td>Yes or No</td>
+</tr>
+<tr>
+<td><strong>Data Reduction</strong></td>
+<td>Yes or No. If yes, specify level of decimation</td>
+</tr>
+<tr>
+<td><strong>RGB Colour or Texture Included</strong></td>
+<td>Yes or No. If Yes then provide details</td>
+</tr>
+<tr>
+<td><strong>Number of Triangles or Polygons</strong></td>
+<td>Total number of triangles in the mesh file where applicable</td>
+</tr>
+<tr>
+<td><strong>Number of Vertices</strong></td>
+<td>Number of vertices in data where applicable</td>
+</tr>
+<tr>
+<td><strong>Validated as Watertight</strong></td>
+<td>Yes or No</td>
+</tr>
+<tr>
+<td><strong>Additional Processing Notes</strong></td>
+<td>Notes on any additional processing</td>
+</tr>
+<tr>
+<td><strong>Healing/Despiking</strong></td>
+<td>Yes or No</td>
+</tr>
+<tr>
+<td><strong>Coordinate System Used / Adjusted</strong></td>
+<td>Yes or No. If yes and adjusted then provide details (e.g. transformation matrix)</td>
+</tr>
+<tr>
+<td><strong>Scale</strong></td>
+<td>If scale used, what is represented by 1 unit</td>
+</tr>
+<tr>
+<td><strong>Creators</strong></td>
+<td>Creators for this data</td>
+</tr>
+<tr>
+<td><strong>Copyright Holders</strong></td>
+<td>Copyright holders for this data</td>
+</tr>
+<tr>
+<td><strong>Creation Date</strong></td>
+<td>Date file was created</td>
+</tr>
+</tbody>
+</table>
+<h3 id="laser-scan-capture_1">Laser Scan - Capture</h3>
+<table>
+<thead>
+<tr>
+<th>Field Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Scanner details</strong></td>
+<td>Specify the name, technology, serial number, firmware version and last calibration date of scanner(s) used in the project</td>
+</tr>
+<tr>
+<td><strong>Scan Resolution</strong></td>
+<td>Resolution settings on scanner</td>
+</tr>
+<tr>
+<td><strong>Noise/Quality Settings</strong></td>
+<td>Noise settings on scanner</td>
+</tr>
+<tr>
+<td><strong>Lens or FOV details</strong> <em>(optional)</em></td>
+<td>Triangulation scanners only. Indicate which lens or FOV was used during scan</td>
+</tr>
+<tr>
+<td><strong>Number of points per scan</strong> <em>(optional)</em></td>
+<td>Specify number of points per scan</td>
+</tr>
+<tr>
+<td><strong>Measurement Technology</strong></td>
+<td>Specify technology used: TOF (first or last return), Phase (frequency settings), Waveform</td>
+</tr>
+<tr>
+<td><strong>Onboard photography?</strong></td>
+<td>Whether the scanner captures images. Y/N</td>
+</tr>
+</tbody>
+</table>
+<h3 id="survey-control_1">Survey Control</h3>
+<table>
+<thead>
+<tr>
+<th>Field Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Control Data</strong></td>
+<td>Yes/No. Specify if control data has been collected</td>
+</tr>
+<tr>
+<td><strong>Related Control Files</strong></td>
+<td>Specify filenames if related control files (e.g. software exports) or witness diagrams are included</td>
+</tr>
+<tr>
+<td><strong>Permanent Survey Markers (PSM)</strong></td>
+<td>Yes/No. Where used, specify when PSM coordinates were obtained (preferably within 12 months of survey)</td>
+</tr>
+<tr>
+<td><strong>Scale Used</strong></td>
+<td>Yes/No. Specify type e.g. measurement, scale bar, 3D reference, etc.</td>
+</tr>
+<tr>
+<td><strong>Additional Notes</strong></td>
+<td>Additional notes on survey control and reference information. Describe any existing reference information available to the surveyors, including paper plans or digital spatial data</td>
+</tr>
+<tr>
+<td><strong>GNSS</strong></td>
+<td>Yes/No. If yes complete fields below</td>
+</tr>
+<tr>
+<td><strong>Instrument details (GNSS)</strong></td>
+<td>Specify the name, serial number, firmware version and last calibration date of instrument(s) used in the project</td>
+</tr>
+<tr>
+<td><strong>GNSS method</strong></td>
+<td>Fixed base station / virtual reference system</td>
+</tr>
+<tr>
+<td><strong>Transformation system used for georeferencing</strong></td>
+<td>Transformation system used for georeferencing e.g. OSTN02 / OSTN15</td>
+</tr>
+<tr>
+<td><strong>Scale factor included</strong></td>
+<td>Yes/No</td>
+</tr>
+<tr>
+<td><strong>TotalStation</strong></td>
+<td>Yes/No. If Yes then complete fields below</td>
+</tr>
+<tr>
+<td><strong>Instrument details (TotalStation)</strong></td>
+<td>Specify the name, serial number, firmware version and last calibration date of instrument(s) used in the project, e.g. Leica Nova MS50 - Serial: 368276</td>
+</tr>
+<tr>
+<td><strong>Traverse (mis-closure) error</strong></td>
+<td>Specify angular error and distance error</td>
+</tr>
+<tr>
+<td><strong>Traverse Adjusted?</strong></td>
+<td>Y/N. Specify what method of adjustment was used, the error ratio e.g. 1/10000, 1/100000 etc.</td>
+</tr>
+<tr>
+<td><strong>Traverse Accuracy</strong></td>
+<td>Specify the accuracy of the control traverse</td>
+</tr>
+</tbody>
+</table>
+<h3 id="registration-alignment_1">Registration Alignment</h3>
+<table>
+<thead>
+<tr>
+<th>Field Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Dataset name</strong></td>
+<td>Specify file name for registered dataset, e.g. Cyclone IMP of Faro Scene project</td>
+</tr>
+<tr>
+<td><strong>Software (including version)</strong></td>
+<td>e.g. Leica Cyclone 9.1.5</td>
+</tr>
+<tr>
+<td><strong>Scans/images imported as native format?</strong></td>
+<td>Y / N (If no, specify exchange format)</td>
+</tr>
+<tr>
+<td><strong>RGB information included?</strong></td>
+<td>Y / N</td>
+</tr>
+<tr>
+<td><strong>Scans cleaned?</strong></td>
+<td>Y / N. Specify method/filtering</td>
+</tr>
+<tr>
+<td><strong>Cleaned scans used for registration?</strong></td>
+<td>Y / N</td>
+</tr>
+<tr>
+<td><strong>Control data used for georeferencing</strong></td>
+<td>Specify file name (control) or list of points</td>
+</tr>
+<tr>
+<td><strong>Method</strong></td>
+<td>Describe the registration method, including use of targets, cloud constraints, survey control and georeferencing method and nesting</td>
+</tr>
+<tr>
+<td><strong>Scan/Image Details</strong></td>
+<td>List of raw scans (filenames) and number of points-per-scan used in registered dataset</td>
+</tr>
+<tr>
+<td><strong>Total Number of Points in File</strong></td>
+<td>Total number of points in registered file</td>
+</tr>
+<tr>
+<td><strong>Max Registration Error (mm)</strong></td>
+<td>Max RMS error - in case of nested registrations, specify max RMS error for each registration</td>
+</tr>
+<tr>
+<td><strong>Global Registration Error</strong></td>
+<td>Total Mean Absolute Error - in case of nested registrations, specify MAE for each registration</td>
+</tr>
+<tr>
+<td><strong>Max Georeferencing Error (mm)</strong></td>
+<td>Max RMS error for georeferencing the registered dataset (registering final registered point cloud to GNSS data or existing PSMs)</td>
+</tr>
+<tr>
+<td><strong>Registration Diagnostics</strong></td>
+<td>List diagnostics.txt file(s) - in case of nested registrations, specify diagnostics file for each one</td>
+</tr>
+<tr>
+<td><strong>Overlap Reduction</strong></td>
+<td>Y/N (optional)</td>
+</tr>
+<tr>
+<td><strong>Smoothing</strong></td>
+<td>Y/N (optional)</td>
+</tr>
+<tr>
+<td><strong>Subsampling</strong></td>
+<td>Y/N (optional)</td>
+</tr>
+<tr>
+<td><strong>Colour Editions</strong></td>
+<td>Y/N (optional)</td>
+</tr>
+<tr>
+<td><strong>Point Editing Summary</strong></td>
+<td>Description of major editing operations (e.g. overlap reduction, point deletion, etc.) that have been performed on the dataset</td>
+</tr>
+<tr>
+<td><strong>Dataset Description</strong></td>
+<td>General description or purpose of dataset</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="photogrammetric-survey">Photogrammetric Survey</h2>
+<p><a href="https://raw.githubusercontent.com/uoy-ads/ads-ingest-documentation/master/technical_metadata/3D_technical_metadata.xlsx">Download the 3D Technical Metadata template</a></p>
+<p>Please note that this template is utilised by multiple data categories including Laser Scanning, LIDAR and Virtual Reality and Visualisation.</p>
+<p>This template contains several worksheets that should be completed. The headings below relate to the names of the specific worksheets that should be completed for this Data Category.</p>
+<h3 id="datasets-components_2">Datasets - Components</h3>
+<table>
+<thead>
+<tr>
+<th>Field Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>File/Group Name</strong></td>
+<td>The name of the file or group of files e.g. model1.obj; /source_images/; /raw_scans/; registered_point_cloud.e57</td>
+</tr>
+<tr>
+<td><strong>Title</strong></td>
+<td>e.g. Landscape Surrounding Site 1 (Reduced Model)</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>e.g. Decimated model created from model1</td>
+</tr>
+<tr>
+<td><strong>Software Used</strong></td>
+<td>Specify software and version used for meshing, e.g. 3DReshaper 11.1.4.24994</td>
+</tr>
+<tr>
+<td><strong>Source File(s) / Relationships</strong></td>
+<td>Specify file names/locations of source files e.g. point cloud source data for meshing (laser scan) or list of photos (photogrammetry). Large lists of e.g. images can be stored in a separate file (include name here)</td>
+</tr>
+<tr>
+<td><strong>Point Cloud Decimation (pre-meshing)</strong></td>
+<td>Yes or No. If yes, specify amount/level</td>
+</tr>
+<tr>
+<td><strong>Hole Filling</strong></td>
+<td>Yes or No</td>
+</tr>
+<tr>
+<td><strong>Smoothing</strong></td>
+<td>Yes or No</td>
+</tr>
+<tr>
+<td><strong>Data Reduction</strong></td>
+<td>Yes or No. If yes, specify level of decimation</td>
+</tr>
+<tr>
+<td><strong>RGB Colour or Texture Included</strong></td>
+<td>Yes or No. If Yes then provide details</td>
+</tr>
+<tr>
+<td><strong>Number of Triangles or Polygons</strong></td>
+<td>Total number of triangles in the mesh file where applicable</td>
+</tr>
+<tr>
+<td><strong>Number of Vertices</strong></td>
+<td>Number of vertices in data where applicable</td>
+</tr>
+<tr>
+<td><strong>Validated as Watertight</strong></td>
+<td>Yes or No</td>
+</tr>
+<tr>
+<td><strong>Additional Processing Notes</strong></td>
+<td>Notes on any additional process</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="tabular-data">Tabular Data</h2>
+<p><a href="https://raw.githubusercontent.com/uoy-ads/ads-ingest-documentation/master/technical_metadata/tabular_data_metadata_template.xlsx">Download the Tabular Data Technical Metadata template</a></p>
+<p>Please ensure that you have also deposited an Entity Relationship Diagram for databases.</p>
+<table>
+<thead>
+<tr>
+<th>Field name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Filename</strong></td>
+<td>Filename of each separate spreadsheet or database file including file extension</td>
+</tr>
+<tr>
+<td><strong>Sheet/table name</strong></td>
+<td>Name of each sheet or table within the specified spreadsheet or database</td>
+</tr>
+<tr>
+<td><strong>Sheet/table description</strong></td>
+<td>A brief description of the sheet/table and the data it contains</td>
+</tr>
+<tr>
+<td><strong>Primary key</strong> <em>(databases only)</em></td>
+<td>Name of the field used to uniquely identify every record in database</td>
+</tr>
+<tr>
+<td><strong>Foreign key</strong> <em>(databases only)</em></td>
+<td>Name of the field used to provide link between other tables</td>
+</tr>
+<tr>
+<td><strong>Row count</strong></td>
+<td>The number of rows containing data in the sheet/table</td>
+</tr>
+<tr>
+<td><strong>Field name</strong></td>
+<td>Name of each field heading within the specified sheet or table</td>
+</tr>
+<tr>
+<td><strong>Field description</strong></td>
+<td>Brief description of the field, including units of measurements and descriptions of codes or abbreviations used where applicable</td>
+</tr>
+<tr>
+<td><strong>Field data type</strong> <em>(databases only)</em></td>
+<td>The kind of data the field contains, i.e string, boolean</td>
+</tr>
+<tr>
+<td><strong>Field length</strong> <em>(databases only)</em></td>
+<td>The maximum number of units allowed within the field</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="vector-graphics">Vector Graphics</h2>
+<p><a href="https://raw.githubusercontent.com/uoy-ads/ads-ingest-documentation/master/technical_metadata/vector_graphic_metadata_template.xlsx">Download the Vector Graphics Technical Metadata template</a></p>
+<p>Please note that where layers are coded or abbreviated, please provide fuller descriptions using the technical metadata template. Where layers are self-explanatory i.e layer name is ‘Trenches’, technical metadata is not required.</p>
+<table>
+<thead>
+<tr>
+<th>Field Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Filename</strong></td>
+<td>The filename of each separate vector file including file extension</td>
+</tr>
+<tr>
+<td><strong>Layer name</strong></td>
+<td>The name of each layer component</td>
+</tr>
+<tr>
+<td><strong>Layer description</strong></td>
+<td>A description of each layer component including use of styles, line weights, colour where significant</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="virtual-reality-and-visualisation">Virtual Reality and Visualisation</h2>
+<p><a href="https://raw.githubusercontent.com/uoy-ads/ads-ingest-documentation/master/technical_metadata/3D_technical_metadata.xlsx">Download the 3D Technical Metadata template</a></p>
+<p>Please note that this template is utilised by multiple data categories including Laser Scanning, LIDAR and Photogrammetric Survey.</p>
+<p>This template contains several worksheets that should be completed. The headings below relate to the names of the specific worksheets that should be completed for this Data Category.</p>
+<h3 id="datasets-components_3">Datasets - Components</h3>
+<table>
+<thead>
+<tr>
+<th>Field Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>File/Group Name</strong></td>
+<td>The name of the file or group of files e.g. model1.obj; /source_images/; /raw_scans/; registered_point_cloud.e57</td>
+</tr>
+<tr>
+<td><strong>Title</strong></td>
+<td>e.g. Landscape Surrounding Site 1 (Reduced Model)</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>e.g. Decimated model created from model1</td>
+</tr>
+<tr>
+<td><strong>Software Used</strong></td>
+<td>Specify software and version used for meshing, e.g. 3DReshaper 11.1.4.24994</td>
+</tr>
+<tr>
+<td><strong>Source File(s) / Relationships</strong></td>
+<td>Specify file names/locations of source files e.g. point cloud source data for meshing (laser scan) or list of photos (photogrammetry). Large lists of e.g. images can be stored in a separate file (include name here)</td>
+</tr>
+<tr>
+<td><strong>Point Cloud Decimation (pre-meshing)</strong></td>
+<td>Yes or No. If yes, specify amount/level</td>
+</tr>
+<tr>
+<td><strong>Hole Filling</strong></td>
+<td>Yes or No</td>
+</tr>
+<tr>
+<td><strong>Smoothing</strong></td>
+<td>Yes or No</td>
+</tr>
+<tr>
+<td><strong>Data Reduction</strong></td>
+<td>Yes or No. If yes, specify level of decimation</td>
+</tr>
+<tr>
+<td><strong>RGB Colour or Texture Included</strong></td>
+<td>Yes or No. If Yes then provide details</td>
+</tr>
+<tr>
+<td><strong>Number of Triangles or Polygons</strong></td>
+<td>Total number of triangles in the mesh file where applicable</td>
+</tr>
+<tr>
+<td><strong>Number of Vertices</strong></td>
+<td>Number of vertices in data where applicable</td>
+</tr>
+<tr>
+<td><strong>Validated as Watertight</strong></td>
+<td>Yes or No</td>
+</tr>
+<tr>
+<td><strong>Additional Processing Notes</strong></td>
+<td>Notes on any additional processing</td>
+</tr>
+<tr>
+<td><strong>Healing/Despiking</strong></td>
+<td>Yes or No</td>
+</tr>
+<tr>
+<td><strong>Coordinate System Used / Adjusted</strong></td>
+<td>Yes or No. If yes and adjusted then provide details (e.g. transformation matrix)</td>
+</tr>
+<tr>
+<td><strong>Scale</strong></td>
+<td>If scale used, what is represented by 1 unit</td>
+</tr>
+<tr>
+<td><strong>Creators</strong></td>
+<td>Creators for this data</td>
+</tr>
+<tr>
+<td><strong>Copyright Holders</strong></td>
+<td>Copyright holders for this data</td>
+</tr>
+<tr>
+<td><strong>Creation Date</strong></td>
+<td>Date file was created</td>
+</tr>
+</tbody>
+</table>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+  
+
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../cmt_technical_metadata/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Technical Metadata">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Technical Metadata
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../tr/tr_index/" class="md-footer__link md-footer__link--next" aria-label="Next: Overview">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Overview
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 - Archaeology Data Service
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.expand", "navigation.footer", "navigation.indexes", "navigation.instant", "navigation.instant.progress", "navigation.tabs", "navigation.tabs.sticky", "navigation.top"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
