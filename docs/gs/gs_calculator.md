@@ -11,12 +11,19 @@ To build a quote:
    * Once complete click the ‘Add to Quote’ button’.
 3. Repeat Step 2 for all files that you wish to deposit.
 
----
+!!! tip
+
+    If you're unsure of your collection's total size, enter 100 GB in Step 1. Storage up to 100 GB is free, so this is a safe default for smaller collections.
+
 
 A breakdown of the fees can be found on the [Costs page](../nc/nc_costs.md).
 
+Reset the quotation using the 'Reset Calculator' button in the bottom right hand corner of the page.
+
+## Download your quotation
+
 To download a copy of your quotation click the ‘Download’ button on the bottom right hand corner of the page. This will allow you to download a pdf version of the costings calculated on this page that you can share with your organisation.
 
-Reset the Calculator using the button in the bottom right hand corner of the page.
+## Large collections
 
-Please note, for collections exceeding 100,000 files or 1Tb of data, for large multifaceted infrastructure projects, or projects with [special interface requirements](https://archaeologydataservice.ac.uk/help-guidance/instructions-for-depositors/interfaces/), please [contact us](https://archaeologydataservice.ac.uk/contact/) for costing advice and guidance.
+Please note, for collections exceeding 100,000 files or 1Tb of data, please [contact us](https://archaeologydataservice.ac.uk/contact/) for costing advice and guidance.
