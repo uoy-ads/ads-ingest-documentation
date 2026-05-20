@@ -22,15 +22,7 @@ Developed to streamline the process of archiving digital data and associated met
 
 This online resource serves as a comprehensive user guide to using the Ingest system, helping you to navigate the features and provide examples for good practice in completing each field.
 
-# How to cite this guide
-
-You can cite this guide using the project’s DOI: https://10.5284/00000. A full citation is provided below:
-
-__Sample Citation for this DOI__
-
-> Archaeology Data Service (2025). ADS Ingest Documentation. DOI: https://doi.org/10.5284/00000
-
-Make sure to include the DOI in your citation for this documentation. Digital Object Identifiers (DOIs) are persistent identifiers which can be used to consistently and accurately reference digital objects and/or content. The DOIs provide a way for the ADS resources to be cited in a similar fashion to traditional scholarly materials. More information on DOIs at the ADS can be found on our help page.
+## Licence
 
 All material in this guide is available open access under a CC-BY 4.0 licence.
 
