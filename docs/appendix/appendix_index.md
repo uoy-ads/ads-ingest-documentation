@@ -24,12 +24,14 @@ Each table lists the error message you will see in the system, a description of 
 The error tables cover all known errors in the Ingest system. If you encounter an error that isn't listed, or if the suggested fix doesn't resolve your problem:
 
 **Contact the helpdesk**
+
 Email us with a description of the error, the stage of the deposit you were at, and — if possible — a screenshot.
 📧 [help@archaeologydataservice.ac.uk](mailto:help@archaeologydataservice.ac.uk)
 
 > When contacting the helpdesk about an error, including the exact error message you see in the system will help us respond more quickly.
 
 **Attend a drop-in session**
+
 If you'd prefer to talk to us in person, please bring your question to one of our Ingest drop-in sessions. Members of the ADS and HSDS team will be on hand to help.
 👉 [View drop-in session dates and register](../tr/tr_ingest_qa.md)
 

@@ -10,6 +10,7 @@ Navigate your collections using the filters or the search bar at the top of the 
   ![New Collection Button](./assets/collections_filters.png){ width="450" }
   <figcaption></figcaption>
 </figure>
+
 ## Status
 
 The status of the collection, located at the end of each row, will determine what you can do with the collection. 
@@ -21,5 +22,25 @@ The status of the collection, located at the end of each row, will determine wha
 Click the ![?](../gs/assets/question_mark.png){ width="25" } next to each field name to open a help menu and find out more about what the field means.
 
 Click the ‘View’ button at the end of each row to open the Collection page, view your input and save new information. 
+
+## Deleting a Collection
+
+To delete a collection that you have not yet submitted, find the row that relates to that Collection and then navigate to 'Status' on the right hand side of the Collections List.
+
+To delete the collection, click the drop down arrow next to 'View' and select 'Delete' A warning will be shown asking whether you are sure you want to delete the collection. 
+
+<figure markdown="span">
+  ![New Collection Button](./assets/delete_collection.png){ width="300" }
+  <figcaption></figcaption>
+</figure>
+
+To confirm click 'Yes' and the collection will be deleted from your Collections List.
+
+!!! warning
+
+    Please note that it is not possible to recover a collection once it has been deleted
+
+
+## Changes to a submitted Collection
 
 If you wish to make a change to a collection that has already been submitted, you will need to request that it be reopened by one of our archivists. This can be done by sending a [Message](gs_messages.md) or contacting the [Helpdesk](https://archaeologydataservice.ac.uk/contact/).

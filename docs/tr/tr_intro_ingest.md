@@ -72,9 +72,9 @@ We recommended that you use your own dataset during the hands-on practice to bet
 These resources will be available during and after the session:
 
 - 📥 **Training dataset** — [Download training dataset](https://bit.ly/Ingest26)
-- 📄 **Core Metadata Template** — [Download Core Metadata template]()
-- 📊 **Presentation slides** — [Download Training Presentation]()
-- 📝 **Feedback survey** — [Take Feedback survey]()
+- 📄 **Core Metadata Template** — [Download Core Metadata template](https://ingest.archaeologydataservice.ac.uk/api/v1/metadata-spreadsheet-template)
+- 📊 **Presentation slides** — [Download Training Presentation](../assets/Intro%20to%20Ingest_Presentation%20slides_070526.pdf)
+- 📝 **Feedback survey** — [Take Feedback survey](https://york.qualtrics.com/jfe/form/SV_1XJkRmzZxKvxMNg)
 
 ---
 
@@ -98,9 +98,8 @@ Any concerns during the session can be reported directly to Nicky or via email t
 
 ## Contact details
 
-| | |
-|---|---|
-| **Session queries** | [nicky.garland@york.ac.uk](mailto:nicky.garland@york.ac.uk) |
-| **General help** | [help@archaeologydataservice.ac.uk](mailto:help@archaeologydataservice.ac.uk) |
+ **Session queries** - [nicky.garland@york.ac.uk](mailto:nicky.garland@york.ac.uk)
+ 
+ **General help** - [help@archaeologydataservice.ac.uk](mailto:help@archaeologydataservice.ac.uk) 
 
 ---

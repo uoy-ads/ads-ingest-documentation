@@ -30,7 +30,7 @@ Once you've completed basic training, join one of our fortnightly drop-in sessio
 
 | Date | Day | Registration |
 |---|---|---|
-| 7 May 2026 | Thursday | [Register](https://www.eventbrite.co.uk/e/an-introduction-to-ingest-7th-may-2026-tickets-1987921567923?aff=oddtdtcreator) |
+| ~~7 May 2026~~ | ~~Thursday~~ | ~~Register~~ |
 | 28 May 2026 | Thursday | [Register](https://www.eventbrite.co.uk/e/an-introduction-to-ingest-28th-may-2026-tickets-1987925089456?aff=oddtdtcreator) |
 | 18 June 2026 | Thursday | [Register](https://www.eventbrite.co.uk/e/copy-of-an-introduction-to-ingest-18th-june-2026-tickets-1987927104483?aff=oddtdtcreator) |
 | 9 July 2026 | Thursday | [Register](https://www.eventbrite.co.uk/e/an-introduction-to-ingest-9th-july-2026-tickets-1987927369275?aff=oddtdtcreator) |
@@ -44,7 +44,7 @@ Once you've completed basic training, join one of our fortnightly drop-in sessio
 
 | Date | Day | Registration |
 |---|---|---|
-| 14 May 2026 | Thursday | [Register](https://www.eventbrite.co.uk/e/ingest-drop-in-qa-session-14th-may-2026-tickets-1987928349206?aff=oddtdtcreator) |
+| ~~14 May 2026~~ | ~~Thursday~~ | ~~Register~~ |
 | 4 June 2026 | Thursday | [Register](https://www.eventbrite.co.uk/e/ingest-drop-in-qa-session-4th-june-2026-tickets-1987930140564?aff=oddtdtcreator) |
 | 25 June 2026 | Thursday | [Register](https://www.eventbrite.co.uk/e/ingest-drop-in-qa-session-25th-june-2026-tickets-1987930250894?aff=oddtdtcreator) |
 | 16 July 2026 | Thursday | [Register](https://www.eventbrite.co.uk/e/ingest-drop-in-qa-session-16th-july-2026-tickets-1987930490611?aff=oddtdtcreator) |

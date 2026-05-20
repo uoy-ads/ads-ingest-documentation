@@ -35,6 +35,11 @@ markdown_extensions:
   - pymdownx.superfences
   - md_in_html
   - pymdownx.blocks.caption
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
 
 
 copyright: Copyright &copy; 2026 - Archaeology Data Service

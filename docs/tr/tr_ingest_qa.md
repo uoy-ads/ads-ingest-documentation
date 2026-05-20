@@ -31,6 +31,7 @@ All sessions are online via Zoom, 10:00 AM–11:00 PM. See the [Training Homepag
 - Anything you weren't sure about after the introductory training
 
 **How your questions help others:**
+
 Common questions and themes raised in drop-in sessions are recorded and fed back into future training sessions and documentation — so your questions help improve the experience for all users.
 
 ---
@@ -65,7 +66,6 @@ Any concerns during the session can be reported directly to Nicky or via email t
 
 ## Contact
 
-| | |
-|---|---|
-| **Session queries** | [nicky.garland@york.ac.uk](mailto:nicky.garland@york.ac.uk) |
-| **General help** | [help@archaeologydataservice.ac.uk](mailto:help@archaeologydataservice.ac.uk) |
+ **Session queries** - [nicky.garland@york.ac.uk](mailto:nicky.garland@york.ac.uk)
+ 
+ **General help** - [help@archaeologydataservice.ac.uk](mailto:help@archaeologydataservice.ac.uk) 
