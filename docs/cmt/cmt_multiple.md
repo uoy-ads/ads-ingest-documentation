@@ -14,18 +14,43 @@ Below are a number of common examples.
 * example.sbn
 * example.prj
 
-__Solution__ - Deposit all the files together in the upload folder, but list them as a single row in the core metadata template, using the filename 'example.shp'.
+__Solution__ - Deposit all the files together in the upload folder, but list them as a single row in the Core Metadata Template, using the filename 'example.shp'.
 
 ---
 
-*Photogrammetry image sets or Laser Scans* - A series of images, likely with different files names but probably with the same extension. For example:
+*Laser Scanning or Geophysics* - A series of files that make up one scan/survey area, likely with different files names but probably with the same extension. For example:
 
-* example1.jpg
-* example2.jpg
-* example3.jpg
-* example4.jpg
+* example1.txt
+* example2.txt
+* example3.txt
+* example4.txt
 
-__Solution__ - Put all of your files within a single folder and list the name of the folder in the core metadata template. More information about using folders can be found on the [Folder Structure page](../cmt/cmt_folder_structure.md).
+__Solution__ - Put all of your files within a single folder and list the name of the folder in the Core Metadata Template. More information about using folders can be found on the [Folder Structure page](cmt_folder_structure.md).
+
+---
+*Virtual Reality and Visualisation* - A series of files that make up a single 3d model, likely with different files names and file extensions. For example:
+
+* example.obj
+* example_mat.mtl
+* example_texture.jpg
+* image1.jpg
+* image2.jpg
+* image3.jpg
+
+__Solution__ - You have two options; either rename all of these files so that they have the same file name (but different file extensions) and list the .obj file in a single row in the core metadata template, or do not rename the files (particularly if this will effect any internal relationships) and instead put all the files in a single folder and list the name of the folder in the Core Metadata Template. More information about using folders can be found on the [Folder Structure page](cmt_folder_structure.md).
+
+---
+
+*Photogrammetry* - A series of different file types, likely with different file names and extensions. For example:
+
+* example.obj
+* example_mat.mtl
+* example_texture.jpg
+* image1.jpg
+* image2.jpg
+* image3.jpg
+
+__Solution__ - Put all the files in a single folder and list the name of the folder in the Core Metadata Template. More information about using folders can be found on the [Folder Structure page](cmt_folder_structure.md).
 
 ---
 
@@ -35,7 +60,7 @@ __Solution__ - Put all of your files within a single folder and list the name of
 * example_mat.mtl
 * example_texture.jpg
 
-Solution - You ave two options; either rename all of these files so that they have the same file name and list them in a single row in the core metadata template, using the filename 'example.obj', or put all the files in a single folder and list the name of the folder in the core metadata template.
+__Solution__ - You have two options; either rename all of these files so that they have the same file name and list them in a single row in the Core Metadata Template, using the filename 'example.obj', or put all the files in a single folder and list the name of the folder in the Core Metadata Template. More information about using folders can be found on the [Folder Structure page](cmt_folder_structure.md).
 
 ## Accepted Data Categories
 

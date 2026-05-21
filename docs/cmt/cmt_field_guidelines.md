@@ -5,7 +5,7 @@ The fieldnames denoted with a * are required fields.
 ---
 
 ### __Filename *__
-Enter name of file. Please include only one object per row, including the file extension in lowercase. Filenames must only contain alpha-numeric characters (a-z, A-Z, 0-9), hyphens (-), underscores (_) or forward slashes (/). If you are depositing shapefiles, or other objects where multiple files make up a single item, please include only one object per row. Further details are provided below under 'Multiple files per object'. 
+Enter name of file. Please include only one object per row, including the file extension in lowercase. Filenames must only contain alpha-numeric characters (a-z, A-Z, 0-9), hyphens (-), underscores (_) or forward slashes (/). Spaces and ampersands (&) are not valid in filenames. If you are depositing shapefiles, or other objects where multiple files make up a single item, please include only one object per row. Further details can be found on the [Multiple files per object page](cmt_multiple.md).
 
 Example:
 > *012345_Archaeological_Site_London_Report.pdf*
@@ -74,6 +74,11 @@ Enter the date this digital object was created. If this is a scan or replication
 > Example - *23/03/2021*
 
 * Format - Date (DD/MM/YYYY format)
+
+!!! warning "Pasting Dates May Change the Cell Format"
+
+     Copying and pasting dates into this field can automatically change the cell format, which will cause an error on upload. If this happens, select the cell and press Ctrl + 1 to open the Format Cells dialog, then reselect the DD/MM/YYYY format — ensuring you choose the option without an asterisk (*) next to it.
+
 
 ### __Technical Metadata__
 Enter a filename for any Technical metadata. For specific data types, we require additional technical metadata. Further guidance on technical metadata, including templates can be found on the [Technical Metadata pages](../cmt/cmt_technical_metadata.md). If using multiple files, separate with a comma (,).
