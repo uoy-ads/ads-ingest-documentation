@@ -5,7 +5,7 @@ Below is a table of errors that the Ingest system may present when uploading the
 | :---- | :---- |
 | Missing “filename” | “Filename” field is empty. |
 | “Filename” cannot be more than 4000 characters | “Filename” field is too long. Please restrict to 4000 characters or under. |
-| “Filename” contains invalid characters \- must only contain alpha-numeric characters (a-z, A-Z, 0-9), hyphens (-), underscores (\_) and forward slashes (/) | “Filename” field is invalid due to the presence of characters that are not accepted. |
+| “Filename” contains invalid characters \- must only contain alpha-numeric characters (a-z, A-Z, 0-9), hyphens (-), underscores (\_) and forward slashes (/). | “Filename” field is invalid due to the presence of characters that are not accepted. Please note spaces and ampersands (&) are not valid in filenames. |
 | Empty directory in “Filename” | “Filename” field contains an empty directory e.g. MyFiles/Images//trench1.jpg. |
 | “Filename” is missing a file extension | “Filename” field is not a directory (doesn’t end with /) and is missing a file extension e.g. MyFiles/Images/trench1. |
 | “Filename” has a file extension that is not accepted | “Filename” field contains a file extension that is not in the list of accepted file extensions. Please note geophysics objects containing proprietary file types should be listed as directories. |
@@ -27,7 +27,7 @@ Below is a table of errors that the Ingest system may present when uploading the
 | “Creation History” cannot be more than 500 characters | “Creation History” field is too long. Please restrict to 500 characters or under. |
 | “Language” cannot be more than 500 characters | “Language” field is too long. Please restrict to 500 characters or under. |
 | Missing “Date File Digitally Created | “Date File Digitally Created” is empty. |
-| Invalid “Date File Digitally Created” \- must be in dd/mm/yyyy format | “Date File Digitally Created” is not in dd/mm/yyyy format. |
+| Invalid “Date File Digitally Created” \- must be in dd/mm/yyyy format | “Date File Digitally Created” is not in dd/mm/yyyy format. See the [Field Guidelines page](https://uoy-ads.github.io/ads-ingest-documentation/cmt/cmt_field_guidelines/#date-file-digitally-created) for more information. |
 | A “Technical Metadata” filename is missing a file extension | A filename in the “Technical Metadata” field is missing a file extension, e.g. MyFiles/technical. |
 | A “Technical Metadata” filename has a file extension that is not accepted | A file listed in the “Technical Metadata” field has a file extension that is not in the list of accepted file extensions. |
 | A “Technical Metadata” filename contains an empty directory | A “Technical Metadata” filename contains an empty directory e.g. MyFiles/Metadata//technical.csv |
