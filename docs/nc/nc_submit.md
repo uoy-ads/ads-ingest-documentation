@@ -66,4 +66,15 @@ Once the Deposit Agreement has been signed, either by yourself or another indivi
 * A deposit receipt, providing a list of all the files deposited (as a csv file)
 * A copy of the Cost Estimate creating using the [Cost menu](../nc/nc_costs.md) (as a pdf file)
 
+
+
+## Notifying a Third party
+
+Once you have submitted your collection, and after you have agreed to the Deposit Agreement (or it is sent to someone else), a pop up menu will appear allowing you to notify a third party that the collection has been submitted. This may be useful for notifying partner organisations or local and national planning authorities, such as County Archaeologists or Historic Building Advisors.
+
+<figure markdown="span">
+  ![Name of recipient](./assets/third_party.png){ width="300" }
+  <figcaption></figcaption>
+</figure>
+
 :tada: Congratulations, your collection has now been submitted!

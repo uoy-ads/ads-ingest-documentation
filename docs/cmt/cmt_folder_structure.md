@@ -32,3 +32,18 @@ Here's an example of correctly referenced subfolder files in the metadata templa
   ![Template with folders](./assets/template_folders.png){ width="650" }
   <figcaption></figcaption>
 </figure>
+
+!!! note "**Please note**"
+
+    Make sure to include a forward slash ( / ) in between the folder name and file name, otherwise the Ingest system will not recognise your files. A forward slash is needed between each folder name as well, meaning that if your files contain multiple layers of subfolders please include a forward slash in between each folder. 
+
+-----
+
+## Uploading files in sub-folders
+
+It is possible to include as many sub-folders as you would like within your upload. While there is not any limit to the number of sub-folders you can include, you will need to list the full pathname in each row of the Core Metadata template. For example:
+
+````
+subfolder1/subfolder2/subfolder3/filename.pdf
+````
+

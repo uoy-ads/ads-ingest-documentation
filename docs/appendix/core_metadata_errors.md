@@ -32,5 +32,5 @@ Below is a table of errors that the Ingest system may present when uploading the
 | A “Technical Metadata” filename has a file extension that is not accepted | A file listed in the “Technical Metadata” field has a file extension that is not in the list of accepted file extensions. |
 | A “Technical Metadata” filename contains an empty directory | A “Technical Metadata” filename contains an empty directory e.g. MyFiles/Metadata//technical.csv |
 | A “Technical Metadata” filename contains invalid characters \- must only contain alpha-numeric characters (a-z, A-Z, 0-9), hyphens (-), underscores (\_) and forward slashes (/) | “Technical Metadata” field is invalid due to the presence of characters that are not accepted.  |
+| Technical Metadata file listed in core metadata | The Technical metadata file is listed as a row in the core metadata file and it should only be listed in the "Technical Metadata" column. |
 | Missing or invalid “Survey Area” | “Data Category” is “Geophysics” and “Survey Area” is either empty or not a valid number. |
-
