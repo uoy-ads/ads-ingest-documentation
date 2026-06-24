@@ -41,7 +41,7 @@ Enter any tags or keywords that describe the content of the item.  These descrip
 * Format - Free text field
 
 ### __Creator *__
-Enter the names of any individuals you would like to credit with the creation of, or contribution to, this file.  Please separate multiple names with commas (,). If the creator has an [ORCID](https://orcid.org/) please provide the full link in brackets () at the end of the name.
+Enter the names of any individuals you would like to credit with the creation of, or contribution to, this file.  Please separate multiple names with commas (,). If the creator has an [ORCID](https://orcid.org/) please provide the full link in brackets () at the end of the name. If you want to add an organisation as a data creator please enter the organisation name followed by *(org)*. For an example please see [Copyright Holder](#copyright-holder).
 
 > Example - *Nicholas Jones (https://orcid.org/1234-5678-9101-1121)*
 

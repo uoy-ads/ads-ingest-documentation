@@ -46,7 +46,6 @@ copyright: Copyright &copy; 2026 - Archaeology Data Service
 
 # Page tree
 nav:
-  - Home: index.md
   - Getting Started:
     - Introduction: gs/gs_introduction.md
     - How to Register via UMA: gs/gs_register.md
