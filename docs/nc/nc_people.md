@@ -8,7 +8,7 @@ Please enter details about who is the copyright holder(s) of the collection. Thi
 
 To add details about the copyright holder first select the ‘Type’ \- either a *Person* or *Organisation*. 
 
-If you selected a *Person* you will to complete the following fields:
+If you selected a *Person* you will complete the following fields:
 
 * __First Name__
 * __Last Name__
