@@ -71,6 +71,6 @@ The list below contains all Data Categories that are required to be formatted in
 * Geographic Information System (GIS) Data
 * Light Detection and Ranging (LiDAR)
 * Laser Scanning
-* Mass Spectrometry
 * Photogrammetric Survey
 * Reflectance Transformation Imaging (RTI)
+* Spectral Data

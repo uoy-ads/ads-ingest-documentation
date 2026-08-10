@@ -16,7 +16,6 @@ The table below lists all of the Data Categories currently accepted through the 
 |  **Light Detection and Ranging (LiDAR)** | tif, txt, e57, las, obj, pts | Raw point data captured from aerial or mobile LiDAR systems. Processed raster or vector data (e.g. geotiff or DXF files) should be deposited as GIS Data. |  [3D technical metadata template](https://raw.githubusercontent.com/uoy-ads/ads-ingest-documentation/master/technical_metadata/3D_technical_metadata.xlsx)  |
 | **Magnetic Resonance Imaging (MRI)** | bmp, dcm, gif, jpg, png, tif [any video files - see Audiovisual] | Data produced from MRI scanning of artefacts and human remains. |  None required. |
 | **Marked Up Text** | html, sgml, xhtml, md | Text and documents formatted using markup or markdown languages. |  None required. |
-| **Mass Spectroscopy**  | .jdx, mzdata, mzml, mzxml, txt, xml [any database files  - See Tabular Data] | Data resulting from Mass Spectroscopy techniques. | None required. |
 | **Other Document**  | doc, docx, odt, pdf, rtf, txt, md | Other Text documents that are not categorised as ‘Publication’, ‘Report’, or ‘Site Records’. |  None required. |
 | **Other Raster Image** | bmp, dng, gif, jp2, jpg, pdf, png, tiff  | Other Raster images that are not categorised as ‘Photograph’  |  None required. |
 | **Photogrammetric Survey** | dng, jpg, obj, pts, tiff, wrl | Data, images and 3d models resulting from photogrammetric surveys. | [3D technical metadata template](https://raw.githubusercontent.com/uoy-ads/ads-ingest-documentation/master/technical_metadata/3D_technical_metadata.xlsx) |
@@ -26,12 +25,21 @@ The table below lists all of the Data Categories currently accepted through the 
 | **Reflectance Transformation Imaging (RTI)** | dng, jpg, obj, ptm, rti, wrl, tif,   | Data (images and outputs) derived from the photographic method of RTI. | None required. |
 | **Report** | doc, docx, odt, pdf, rtf, txt, md | Text files that are formal reports Text files that represent a digital version of a formal publication, whether online or in print. | None required. |
 | **Site Record** | doc, docx, odt, pdf, rtf, txt, md [any raster image files - See Photograph and Other Raster Image] | Scanned physical site records such as context and other recording sheets, site registers, site plans and section drawings. | None required. |
+| **Spectral Data**  | .jdx, mzdata, mzml, mzxml, txt, xml [any database files  - See Tabular Data] | Data resulting from Mass Spectroscopy techniques. | Required but no template available (see below). |
 | **Tabular Data** | accdb, csv, dbf, json, mdb, odb, ods, rdf, sql, tsv, txt, xls, xlsx, xml | Tabular datasets such as databases and spreadsheets. | [Tabular Data technical metadata template](https://raw.githubusercontent.com/uoy-ads/ads-ingest-documentation/master/technical_metadata/tabular_data_metadata_template.xlsx) |
 | **Vector Graphic** | dwg, dxf, svg | Graphical vector datasets such as CAD (computer assisted design) models. | [Vector Graphic technical metadata template](https://raw.githubusercontent.com/uoy-ads/ads-ingest-documentation/master/technical_metadata/vector_graphic_metadata_template.xlsx) |
 | **Virtual Reality and Visualisation** | obj, stl, wrl  | Other 3D models and visualisation including virtual reality. This data should not include datasets derived from ‘Photogrammetry’. ‘Laser scanning’, ‘LIDAR’ or derived from specific medical imaging techniques such as CT Scanning. | [3D technical metadata template](https://raw.githubusercontent.com/uoy-ads/ads-ingest-documentation/master/technical_metadata/3D_technical_metadata.xlsx) |
 | **X-radiography (X-ray) Scanning** | bmp, dcm, gif, jpg, png, tif  | Images and data produced by X-ray scanning. | None required. |
-| **X-ray Fluorescence** | txt, xml  | Data resulting from X-ray fluorescence (XRF) spectroscopy | None required. |
+| **X-ray Fluorescence** | txt, xml  | Data resulting from X-ray fluorescence (XRF) spectroscopy | Required but no template available (see below). |
 
+## Technical metadata templates in development
+
+Several templates for required technical metadata are currently in development. This includes templates for:
+
+* Spectral Data
+* X-ray Fluorescence
+
+Most of the instrumentation for these data categories will provide technical metadata as standard. Please contact the ADS [Helpdesk](https://archaeologydataservice.ac.uk/contact/) to confirm that your metadata is adequate proir to submission. 
 
 ## Categories not listed
 

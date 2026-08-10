@@ -79,9 +79,10 @@ nav:
   - Training:
     - tr/tr_index.md
     - Introduction to Ingest: tr/tr_intro_ingest.md
-    - Q & A Drop-in Sessions: tr/tr_ingest_qa.md
+    - Ingest in Practice: tr/tr_ingest_practice.md
     - Code of Conduct: tr/tr_conduct.md
   - Troubleshooting:
     - appendix/appendix_index.md
+    - Common Issues: appendix/common_issues.md
     - Core Metadata Errors: appendix/core_metadata_errors.md
     - File Upload Errors: appendix/file_upload_errors.md
