@@ -8,6 +8,8 @@ This section covers the errors you may encounter when using the Ingest system, a
 
 This part of the guide provides a list of common errors that occur when uploading [Files](../nc/nc_files.md) and [Metadata](../cmt/cmt_index.md) to the Ingest system.
 
+**Not sure where to start?** Check [Common Issues](../appendix/common_issues.md) first — it covers the problems most users run into and links straight to the fix.
+
 Errors in Ingest fall into two categories. Use the links below to go directly to the relevant table:
 
 | I'm having a problem with... | Go to |
@@ -30,10 +32,10 @@ Email us with a description of the error, the stage of the deposit you were at, 
 
 > When contacting the helpdesk about an error, including the exact error message you see in the system will help us respond more quickly.
 
-**Attend a drop-in session**
+**Attend a training session**
 
-If you'd prefer to talk to us in person, please bring your question to one of our Ingest drop-in sessions. Members of the ADS and HSDS team will be on hand to help.
-👉 [View drop-in session dates and register](../tr/tr_ingest_qa.md)
+If you'd prefer to talk to us in person, please bring your question to one of our Ingest training sessions. Members of the ADS and HSDS team will be on hand to help.
+👉 [View session dates and register](../tr/tr_index.md
 
 ---
 

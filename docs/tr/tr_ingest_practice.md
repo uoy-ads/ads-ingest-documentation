@@ -1,6 +1,8 @@
-# An Introduction to Ingest
+# Ingest in Practice
 
 This online training session introduces ADS and HSDS users to Ingest, our new deposit system for archaeological and heritage data. 
+
+> 💡 **New to Ingest?** We recommend attending an [Introduction to Ingest training session](../tr/tr_intro_ingest.md) before joining this session. This training session is designed for users who have completed basic training and want to go deeper with their own datasets.
 
 ---
 
@@ -10,7 +12,7 @@ This online training session introduces ADS and HSDS users to Ingest, our new de
 
 ⏱️ Duration: 1.5 hours
 
-👥 Audience: All users
+👥 Audience: Ingest users who have completed the 'Introduction to Ingest' basic training
 
 ---
 
@@ -30,10 +32,13 @@ This interactive training session will help you understand and confidently use t
 
 By the end of this session, you will be able to:
 
-1. Navigate and complete the basic login and registration process for the Ingest system.
-2. Understand the strategic role of Ingest within the ADS and HSDS digital infrastructure (including its connections to UMA, Data Deposit, Archive interfaces, and Data Catalogue).
-3. Identify the information required at different stages of the Ingest system, including metadata requirements.
-4. Begin using the Ingest system with your own datasets and deposits.
+1. Explain how collection-level and file-level metadata differ in what they describe and how they are entered into Ingest.
+2. Determine which specialised formats require additional preparation or technical metadata before upload.
+3. Apply efficient techniques for completing file-level metadata templates at scale, including for datasets with large numbers of files such as bulk photography.
+4. Produce a completed metadata template for a dataset of their own, ready for upload via Ingest.
+5. Evaluate how best to structure a multi-phased project within Ingest, weighing options such as single vs. staged deposits.
+
+
 
 ---
 
@@ -42,17 +47,17 @@ By the end of this session, you will be able to:
 | Time | Duration | Activity |
 |---|---|---|
 | 10:00–10:10 | 10 mins | Introduction & Housekeeping |
-| 10:10–10:20 | 10 mins | An Introduction to Ingest *(Presentation)* |
-| 10:20–11:00 | 25 mins | Live Demonstration |
-| 11:00–11:20 | 20 mins | Q&A Practice Session|
+| 10:10–10:25 | 10 mins | Ingest in Practice *(Presentation)* |
+| 10:25–11:10 | 25 mins | Core Metadata Demonstration |
+| 11:10–11:20 | 20 mins | Q & A Session |
 | 11:20–11:30 | 10 mins | Wrap-up & Feedback |
+
 ---
 
 ## Before You Attend
 
-**1. Register or log in via UMA**
-Ingest is accessed through the User Management System (UMA). If you are an existing OASIS user, you can use your current login. New users will need to register before the session.
-👉 [Register / Log in via UMA](https://archaeologydataservice.ac.uk/uma/register.xhtml?a=ingest)
+**1. Attend a 'Introduction to Ingest' training session**
+If you are new to Ingest, we recommend attending an [Introduction to Ingest training session](../tr/tr_intro_ingest.md) before joining this session. 
 
 **2. Prepare your materials**
 We recommended that you use your own dataset during the hands-on practice to better replicate real-world conditions. However, if you do not have a dataset to hand a training dataset will be provided at the start of the session — no preparation needed.
@@ -70,15 +75,16 @@ These resources will be available during and after the session:
 
 - 📥 **Training dataset** — [Download training dataset](https://bit.ly/Ingest26)
 - 📄 **Core Metadata Template** — [Download Core Metadata template](https://ingest.archaeologydataservice.ac.uk/api/v1/metadata-spreadsheet-template)
-- 📝 **Feedback survey** — [Take Feedback survey](https://york.qualtrics.com/jfe/form/SV_8dcioBvEz9eV9Eq)
+- 📊 **Presentation slides** — [Download Training Presentation]()
+- 📝 **Feedback survey** — [Take Feedback survey]()
 
 ---
 
-## Your Trainers
+## Your Trainer
 
 **Dr Nicky Garland** is the Training and Communications Manager at the Archaeology Data Service (ADS). Nicky is an archaeologist with extensive experience of teaching and training in both developer-led archaeology and academia.
 
-**Dr Ewan Chipping** is the Training Officer at the Heritage Science Data Service (HSDS). Ewan is an zooarchaeologist with  experience of teaching and training in a range of archaeological subjects as a technical specialist and associate lecturer.
+The ADS is the leading accredited repository in the UK for archaeology and historic environment data. With over 25 years of experience, the ADS supports research, learning, and teaching with free, high-quality, and dependable digital resources.
 
 ---
 
