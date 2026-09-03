@@ -94,7 +94,7 @@ Any concerns during the session can be reported directly to Nicky or via email t
 
 ## Contact details
 
- **Session queries** - [nicky.garland@york.ac.uk](mailto:nicky.garland@york.ac.uk)
+ **Session queries** - [ewan.chipping@york.ac.uk](mailto:ewan.chipping@york.ac.uk)
  
  **General help** - [help@archaeologydataservice.ac.uk](mailto:help@archaeologydataservice.ac.uk) 
 
