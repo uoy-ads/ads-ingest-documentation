@@ -40,7 +40,7 @@ Common questions and themes raised in drop-in sessions are recorded and fed back
 
 You can send questions ahead of the session to ensure the right team members are prepared to answer.
 
-👉 Email: [help@archaeologydataservice.ac.uk](mailto:help@archaeologydataservice.ac.uk) with the subject line: *Drop-in question — [date of session]*
+👉 Email: [help@archaeologydataservice.ac.uk](mailto:help@archaeologydataservice.ac.uk) with the subject line: *Drop-in question*
 
 ---
 
