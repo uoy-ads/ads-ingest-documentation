@@ -5,7 +5,7 @@ The fieldnames denoted with a * are required fields.
 ---
 
 ### __Filename *__
-Enter name of file. Please include only one object per row, including the file extension in lowercase. Filenames must only contain alpha-numeric characters (a-z, A-Z, 0-9), hyphens (-), underscores (_) or forward slashes (/). Spaces and ampersands (&) are not valid in filenames. If you are depositing shapefiles, or other objects where multiple files make up a single item, please include only one object per row. Further details can be found on the [Multiple files per object page](cmt_multiple.md).
+Enter name of file. Please include only one object per row, including the file extension. Filenames must only contain alpha-numeric characters (a-z, A-Z, 0-9), hyphens (-), underscores (_) or forward slashes (/). Spaces and ampersands (&) are not valid in filenames. If you are depositing shapefiles, or other objects where multiple files make up a single item, please include only one object per row. Further details can be found on the [Multiple files per object page](cmt_multiple.md).
 
 Example:
 > *012345_Archaeological_Site_London_Report.pdf*
