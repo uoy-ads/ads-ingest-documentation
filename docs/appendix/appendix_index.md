@@ -35,7 +35,7 @@ Email us with a description of the error, the stage of the deposit you were at, 
 **Attend a training session**
 
 If you'd prefer to talk to us in person, please bring your question to one of our Ingest training sessions. Members of the ADS and HSDS team will be on hand to help.
-👉 [View session dates and register](../tr/tr_index.md
+👉 [View session dates and register](../tr/tr_index.md)
 
 ---
 

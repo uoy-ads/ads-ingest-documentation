@@ -30,7 +30,7 @@ Once you've completed basic training, join one of in practice training sessions 
 
 | Date | Day | Registration |
 |---|---|---|
-| 27 August May 2026 | Thursday | [Register](https://www.eventbrite.com/e/1996445461117?aff=oddtdtcreator) |
+| ~~27 August May 2026~~ | ~~Thursday~~ | ~~Register~~ |
 | 17 September 2026 | Thursday | [Register](https://www.eventbrite.com/e/1996446311661?aff=oddtdtcreator) |
 | 15 October July 2026 | Thursday | [Register](https://www.eventbrite.com/e/1996446416976?aff=oddtdtcreator) |
 | 5 November 2026 | Thursday | [Register](https://www.eventbrite.com/e/1996446540345?aff=oddtdtcreator) |
@@ -45,7 +45,7 @@ Once you've completed basic training, join one of in practice training sessions 
 
 | Date | Day | Registration |
 |---|---|---|
-| 3 September 2026 | Thursday | [Register](https://www.eventbrite.com/e/1996452595456?aff=oddtdtcreator) |
+| ~~3 September 2026~~ | ~~Thursday~~ | ~~Register~~ |
 | 24 September 2026 | Thursday | [Register](https://www.eventbrite.com/e/1996629501587?aff=oddtdtcreator) |
 | 22 October 2026 | Thursday | [Register](https://www.eventbrite.com/e/1996629831574?aff=oddtdtcreator) |
 | 26 November 2026 | Thursday | [Register](https://www.eventbrite.com/e/1996630797463?aff=oddtdtcreator) |

@@ -24,7 +24,7 @@ All sessions are online via Zoom, 10:00 AM–11:30 AM on Thursdays. See the [Tra
 
 ## About This Session
 
-This interactive training session will help you understand and confidently use the Ingest system. We'll begin with an overview of what Ingest is and how it fits into the ADS and HSDS ecosystem, followed by a live step-by-step demonstration. You'll then have the opportunity to try the system yourself with support from the facilitators.
+This interactive training session is a follow-on session for ADS and HSDS users who have completed our Introduction to Ingest training session. This session moves from the basics into real-world application by focusing on how to complete metadata templates accurately and efficiently as well as structuring complex, multi-phased projects within Ingest. 
 
 ---
 
@@ -48,7 +48,8 @@ By the end of this session, you will be able to:
 |---|---|---|
 | 10:00–10:10 | 10 mins | Introduction & Housekeeping |
 | 10:10–10:25 | 10 mins | Ingest in Practice *(Presentation)* |
-| 10:25–11:10 | 25 mins | Core Metadata Demonstration |
+| 10:25–11:00 | 25 mins | Core Metadata Demonstration |
+| 11:00–11:10 | 10 mins | Complex Projects *(Presentation)*|
 | 11:10–11:20 | 20 mins | Q & A Session |
 | 11:20–11:30 | 10 mins | Wrap-up & Feedback |
 
@@ -75,8 +76,7 @@ These resources will be available during and after the session:
 
 - 📥 **Training dataset** — [Download training dataset](https://bit.ly/Ingest26)
 - 📄 **Core Metadata Template** — [Download Core Metadata template](https://ingest.archaeologydataservice.ac.uk/api/v1/metadata-spreadsheet-template)
-- 📊 **Presentation slides** — [Download Training Presentation]()
-- 📝 **Feedback survey** — [Take Feedback survey]()
+- 📝 **Feedback survey** — [Take Feedback survey](https://york.qualtrics.com/jfe/form/SV_24yEPmBOtLJldga)
 
 ---
 

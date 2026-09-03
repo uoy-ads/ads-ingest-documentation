@@ -39,7 +39,7 @@ Several templates for required technical metadata are currently in development. 
 * Spectral Data
 * X-ray Fluorescence
 
-Most of the instrumentation for these data categories will provide technical metadata as standard. Please contact the ADS [Helpdesk](https://archaeologydataservice.ac.uk/contact/) to confirm that your metadata is adequate proir to submission. 
+Most of the instrumentation for these data categories will provide technical metadata as standard. Please contact the ADS [Helpdesk](https://archaeologydataservice.ac.uk/contact/) to confirm that your metadata is adequate prior to submission. 
 
 ## Categories not listed
 
