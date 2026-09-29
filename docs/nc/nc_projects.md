@@ -42,6 +42,10 @@ Please provide a name for your project. Make sure the name of the project is cle
 
 Using the dropdown list provided, please describe the activities or tasks that were undertaken as part of this project. Type in the activity into the bar to search available options. You can select more than one option. To remove an option, click the ‘x’ next to the name of the activity. This is a mandatory field.
 
+## Methods / Techniques 
+
+Using the dropdown list provided, please choose any scientific or conservation techniques that were undertaken as part of this project. Type into the bar to search available options. You can select more than one option. To remove an option, click the ‘x’ next to the name of the activity. 
+
 ## Project Description
 
 Include a description of your project including key objectives, methodology, and significance. You may also include details about the scope of work, fieldwork dates, and expected outcomes. This description should relate to this particular project within your Collection and should not repeat the information from ‘Collection Description' on the [Collection Information page](../nc/nc_collection_info.md). If you have only a single project within your collection, this field may provide more contextual information about what work or research was undertaken that led to the creation of this Collection. This field allows you to enter a maximum of 20,000 characters.
