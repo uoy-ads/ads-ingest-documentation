@@ -69,9 +69,9 @@ This menu allows you to add Keywords that reflect your project’s key research 
 
 To add a Keyword, click the “+ Keyword" button and fill in the following:
 
-* Subject Keyword Type - From the drop down list select the appropriate thesaurus of subject keywords to search based on the monument or objects you are describing and its location within the UK.
+* Subject Keyword Type - From the drop down list select the appropriate thesaurus of subject keywords to search based on the project you are describing.  Where relevant you may need to chose a thesaurus appropriate for your projects location within the UK.
 * Subject Keyword - Search for your subject keyword. Type in a keyword and this menu will filter to the appropriate option. Based on the Subject Keyword Type, this menu will search the appropriate thesaurus of subject keywords.
-* Period Keyword Type - Pair your keyword with the relevant time period. Select the location within the UK to search appropriate thesaurus of period keywords.
+* Period Keyword Type - If appropriate you can pair your keyword with a relevant time period. Select the location within the UK to search appropriate thesaurus of period keywords.
 * Period Keyword - Search for your subject keyword. Type in a period and this menu will filter to the appropriate option. Based on the Period Keyword Type, this menu will search the appropriate list of periods within the UK.
 
 This is a mandatory field. Please ensure at least one keyword has been added but please add as many as is necessary to sufficiently describe your project.
