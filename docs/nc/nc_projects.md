@@ -46,11 +46,11 @@ Using the dropdown list provided, please describe the activities or tasks that w
 
 Include a description of your project including key objectives, methodology, and significance. You may also include details about the scope of work, fieldwork dates, and expected outcomes. This description should relate to this particular project within your Collection and should not repeat the information from ‘Collection Description' on the [Collection Information page](../nc/nc_collection_info.md). If you have only a single project within your collection, this field may provide more contextual information about what work or research was undertaken that led to the creation of this Collection. This field allows you to enter a maximum of 20,000 characters.
 
-## Fieldwork Start Date
+## Project Start Date
 
 Enter the date when the information-gathering phase of the project began. This may coincide with the start of fieldwork or a research project. This is a mandatory field. 
 
-## Fieldwork  End Date
+## Project End Date
 
 Enter the date when the information-gathering phase of the project was completed. This may coincide with the end of fieldwork or a research project. This is a mandatory field. 
 
